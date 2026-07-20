@@ -4,6 +4,22 @@ set -euo pipefail
 REPOSITORY="Shadovv909/cse3cwa-assessment-1"
 REMOTE_URL="https://github.com/${REPOSITORY}.git"
 
+if ! command -v git >/dev/null 2>&1; then
+  echo "Git is required before this project can be published." >&2
+  exit 1
+fi
+
+# The assessment ZIP intentionally excludes .git. Initialise a repository when
+# the script is run from that ZIP; cloning the supplied .git.bundle instead will
+# preserve the prepared multi-commit history.
+if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+  git init -b main
+  git config user.name "Jacob Fenollar"
+  git config user.email "Shadovv909@users.noreply.github.com"
+  git add .
+  git commit -m "Complete CSE3CWA Assessment Task 1"
+fi
+
 if ! command -v gh >/dev/null 2>&1; then
   echo "GitHub CLI is required: https://cli.github.com/" >&2
   exit 1

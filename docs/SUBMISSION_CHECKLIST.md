@@ -23,13 +23,15 @@ Then open both files in `examples/` directly in a normal browser and complete on
 
 A GitHub repository link is required by the submission brief. The local project is prepared with `main`, an `origin` URL, professional commits, `.gitignore`, and GitHub Actions. The remote repository cannot be created or pushed without the account holder’s authenticated GitHub session.
 
-After extracting the ZIP, run:
+To preserve the prepared multi-commit history, clone the separately supplied Git bundle and publish that clone:
 
 ```bash
+git clone cse3cwa-assessment-1-Jacob-Fenollar-22421357.git.bundle cse3cwa-assessment-1
+cd cse3cwa-assessment-1
 ./scripts/publish-to-github.sh
 ```
 
-Complete the one-time browser sign-in when GitHub CLI asks. Confirm the repository is public and that the Actions check passes, then submit:
+The script can also be run from the extracted assessment ZIP; it will initialise a fresh local repository because `.git` is correctly excluded from the ZIP. Complete the one-time browser sign-in when GitHub CLI asks. Confirm the repository is public and that the Actions check passes, then submit:
 
 ```text
 https://github.com/Shadovv909/cse3cwa-assessment-1

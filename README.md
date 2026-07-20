@@ -107,13 +107,15 @@ docs/                       # Justification, rubric map and submission evidence
 
 The project is configured for `Shadovv909/cse3cwa-assessment-1`, includes a clean local Git history, and has a GitHub Actions workflow that runs `npm ci` and `npm run check` on pushes and pull requests. Creating or pushing to the remote account still requires Jacob’s one-time authenticated GitHub session.
 
-After extracting the submission ZIP and opening a terminal in the project folder, run:
+The preferred method is to clone the supplied Git bundle because it restores the prepared multi-commit history:
 
 ```bash
+git clone cse3cwa-assessment-1-Jacob-Fenollar-22421357.git.bundle cse3cwa-assessment-1
+cd cse3cwa-assessment-1
 ./scripts/publish-to-github.sh
 ```
 
-The script uses GitHub CLI browser authentication, creates the public repository when it does not already exist, configures `origin`, and pushes `main`. Never place a GitHub password or personal access token in source files or chat messages.
+The assessment ZIP can also be extracted and published directly. In that case the script detects that `.git` was intentionally excluded, initialises a repository, and creates a submission commit before publishing. The script then uses GitHub CLI browser authentication, creates the public repository when it does not already exist, configures `origin`, and pushes `main`. Never place a GitHub password or personal access token in source files or chat messages.
 
 ## Assessment documentation
 
