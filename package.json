@@ -1,0 +1,39 @@
+{
+  "name": "cse3cwa-assessment-1",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Accessible Next.js builder for phoneme-based Wordle and Word Search classroom activities.",
+  "author": "Jacob Fenollar (22421357)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shadovv909/cse3cwa-assessment-1.git"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run typecheck && npm test && npm run build",
+    "test": "node --test --experimental-loader ./scripts/typescript-loader.mjs tests/*.test.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.10",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "postcss": "8.5.20"
+  }
+}
