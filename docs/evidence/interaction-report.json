@@ -1,0 +1,36 @@
+{
+  "console_errors": [],
+  "compact_button_visible": true,
+  "compact_link_count": 5,
+  "compact_links": [
+    "Home",
+    "Wordle",
+    "Word Search",
+    "About",
+    "Settings"
+  ],
+  "compact_escape_closes": true,
+  "mobile_overflow": false,
+  "settings_before_reload": {
+    "theme": "dark",
+    "density": "compact",
+    "cookies": "phoneme-theme=dark; phoneme-density=compact"
+  },
+  "settings_after_reload": {
+    "theme": "dark",
+    "density": "compact",
+    "cookies": "phoneme-theme=dark; phoneme-density=compact"
+  },
+  "wordle_message": "Correct — the English word is “ship”.",
+  "wordle_correct_tiles": 3,
+  "wordle_keyboard_beside_board": true,
+  "wordle_hint_theta": "/θ/ — TH (as in “thin”)",
+  "search_message": "Found “chin”. 4 sequence(s) remain.",
+  "search_found_words": 1,
+  "standalone_wordle_message": "Correct — the English word is “ship”.",
+  "standalone_wordle_correct_tiles": 3,
+  "standalone_wordle_external_resources": 0,
+  "standalone_search_message": "Found “chin”. 4 sequence(s) remain.",
+  "standalone_search_found_words": 1,
+  "standalone_search_external_resources": 0
+}
