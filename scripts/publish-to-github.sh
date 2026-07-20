@@ -17,7 +17,7 @@ fi
 if gh repo view "$REPOSITORY" >/dev/null 2>&1; then
   echo "Repository already exists: https://github.com/${REPOSITORY}"
 else
-  gh repo create "$REPOSITORY" --public --description "CSE3CWA Assessment 1 phoneme activity frontend" --confirm
+  gh repo create "$REPOSITORY" --public --description "CSE3CWA Assessment 1 phoneme activity frontend"
 fi
 
 if git remote get-url origin >/dev/null 2>&1; then
