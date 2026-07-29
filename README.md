@@ -2,125 +2,103 @@
 
 **Student:** Jacob Fenollar  
 **Student number:** 22421357  
-**Repository:** <https://github.com/Shadovv909/cse3cwa-assessment-1>
+**GitHub repository:** <https://github.com/Shadovv909/cse3cwa-assessment-1>
 
-Phoneme Studio is a responsive teacher-facing frontend for creating phoneme-based classroom activities. It provides separate Wordle and Word Search builders, immediate playable previews, and browser-generated standalone HTML files. The project is intentionally frontend-only: no account, database, API, or server-side word-list service is required for Assessment 1.
+Phoneme Studio is a frontend-only Next.js application for teachers to create, preview, and export phoneme-based Wordle and Word Search classroom activities. Generated activities download as complete standalone HTML files that can be opened directly in a normal web browser.
 
-## Assessment alignment
+## Included pages
 
-The application directly implements the five required pages and the highest-band rubric features:
+- **Home** — project introduction and links to both activity builders.
+- **About** — purpose, Assessment 1 scope, architecture, accessibility, and planned future expansion.
+- **Wordle** — configurable phoneme Wordle builder with a playable preview.
+- **Word Search** — configurable phoneme Word Search builder using a small editable word list.
+- **Settings** — persistent light/dark theme and comfortable/compact spacing preferences.
 
-- **Home** introduces the project and links to both builders.
-- **About** explains the purpose, current frontend scope, deferred features, component architecture, and accessibility approach.
-- **Wordle** creates one playable phoneme target and places the phoneme keyboard beside the game board on wider screens.
-- **Word Search** creates a grid from a small editable list of approximately five phoneme-based words.
-- **Settings** provides light/dark themes and comfortable/compact layouts, persisted in first-party cookies.
+The supplied broad HCE corpus is stored in `src/data/`. It includes the supplied phoneme inventory and 90 example words grouped into three-, four-, and five-phoneme entries.
 
-Both Generate buttons create one complete `.html` file containing the selected data, responsive CSS, and plain JavaScript. The output has no external script or stylesheet dependency and can be opened directly in a normal browser.
+## Run the project on Windows
 
-## Supplied HCE corpus integration
+This project has already been created with `create-next-app`. **Do not run `npx create-next-app` again inside this folder**, because that command creates a new project and refuses to overwrite the existing files.
 
-The project incorporates the supplied broad HCE corpus rather than inventing a separate sound inventory:
+Open PowerShell in the folder that contains `package.json`, then run:
 
-- all **43 supplied phoneme symbols** are available in the authoring palette;
-- all **90 supplied word examples** are included: 30 three-phoneme, 30 four-phoneme, and 30 five-phoneme entries;
-- the Wordle builder can load any supplied word from grouped presets;
-- the Word Search builder includes three five-word preset sets for three-, four-, and five-phoneme practice;
-- each phoneme occupies its own activity cell, including multi-character symbols such as `/tʃ/`, `/dʒ/`, and `/æɪ/`;
-- hover titles and accessible names use forms such as `/θ/ — TH (as in “thin”)`.
-
-The source data is in `src/data/hce-corpus.ts` and `src/data/phonemes.ts` so a future assessment can replace the static corpus with database-backed content without changing the game components.
-
-## Main functionality
-
-### Phoneme Wordle
-
-The teacher can load a supplied HCE example or construct a sequence manually, enter the English answer, choose four to eight attempts, select Guided, Standard, or Challenge mode, and show or hide visible spelling labels. The live preview supports adding and deleting phonemes, submitting guesses, resetting, duplicate-aware scoring, and a clear success/final-attempt outcome. Feedback combines colour with `✓`, `↔`, and `×` symbols so colour is never the only cue.
-
-### Phoneme Word Search
-
-The teacher can load an HCE five-word set, edit English equivalents and phoneme sequences, add or remove words within the prototype limits, choose grid size, choose difficulty, show or hide English hints, and shuffle the deterministic layout. The generator uses bounded backtracking, favours compatible overlaps, and records the intended placement for every target. Students choose the first and last tile of a straight line; the preview checks intended placements in either direction and marks found words with text, colour, and a tick.
-
-### Preferences and responsive interface
-
-Theme and density choices are stored locally in first-party cookies and restored before the page is displayed. Desktop navigation changes to a labelled kebab menu on compact screens. Builder controls and previews sit side by side where space permits and stack at smaller widths. Grids use local horizontal containment rather than forcing the entire page to overflow.
-
-## Accessibility
-
-The interface uses a skip link, semantic headings and landmarks, visible labels, fieldsets and legends, descriptive button names, live status regions, keyboard-operable controls, visible focus indicators, reduced-motion support, and minimum touch-friendly controls. Word Search supports Escape to cancel a starting tile. Each grid tile announces its row, column, phoneme hint, and found state. Native hover titles remain available even when visible spelling labels are disabled.
-
-Automated axe-core checks found no WCAG 2.0/2.1 A or AA violations on all five desktop routes, the main mobile routes, and both standalone activity examples. Browser interaction checks also confirmed mobile navigation, cookie persistence, successful game completion, self-contained output, and no console errors. Reports are included in `docs/evidence/`.
-
-## Created with create-next-app
-
-The project was bootstrapped with the required command:
-
-```bash
-npx create-next-app@latest cse3cwa-assessment-1 \
-  --ts --eslint --app --src-dir --use-npm \
-  --import-alias "@/*" --no-tailwind --yes
-```
-
-## Run and verify
-
-Use Node.js 20.9 or newer. Node.js 22 is used by the included GitHub Actions workflow.
-
-```bash
+```powershell
+node --version
+npm --version
 npm ci
 npm run dev
 ```
 
-Open `http://localhost:3000`.
+Open <http://localhost:3000> in a browser. Keep the terminal open while recording or testing. Stop the development server with `Ctrl+C`.
 
-Run the full verification pipeline with:
+Use Node.js **20.9 or newer**. Node.js 22 is recommended. The VS Code Live Server extension is not required and should not be used to run this Next.js application.
 
-```bash
+If a previous failed install left partial generated folders, clean them and try again:
+
+```powershell
+Remove-Item -Recurse -Force node_modules, .next -ErrorAction SilentlyContinue
+npm ci
+npm run dev
+```
+
+As a fallback, `npm install` can be used instead of `npm ci`.
+
+## Verify before submission
+
+```powershell
 npm run check
 ```
 
-This command runs ESLint, TypeScript checking, six Node unit tests, and an optimized Next.js production build. The unit tests verify the exact HCE inventory, all 90 corpus entries, duplicate Wordle scoring, deterministic target placement, intended-placement matching, and self-contained HTML generation.
+The `check` script runs ESLint, TypeScript checking, the unit tests, and a production build. A successful run should finish without errors.
 
-## Project structure
+To test the production build locally:
+
+```powershell
+npm run build
+npm run start
+```
+
+Then open <http://localhost:3000> again.
+
+## Main project structure
 
 ```text
-src/
-├── app/                    # App Router pages and global responsive CSS
-├── components/
-│   ├── builders/           # Teacher authoring interfaces
-│   ├── games/              # Interactive student previews
-│   ├── layout/             # Header, footer, navigation and app shell
-│   ├── settings/           # Cookie-backed preferences
-│   └── ui/                 # Shared page heading and phoneme palette
-├── config/                 # Site, student and repository details
-├── data/                   # Supplied broad HCE corpus and phoneme hints
-├── lib/                    # Scoring, placement, keyboard and export logic
-└── types/                  # Shared activity models
-
-tests/                      # Core Node tests
-scripts/                    # TypeScript test loader and GitHub publish helper
-.github/workflows/          # Continuous integration
-examples/                   # Verified standalone HTML examples
-docs/                       # Justification, rubric map and submission evidence
+.github/workflows/     GitHub Actions checks
+src/app/               Required pages and global styling
+src/components/        Reusable builders, previews, layout, settings, and UI
+src/config/            Student and repository details
+src/data/              HCE corpus and phoneme descriptions
+src/lib/               Scoring, grid generation, downloads, and HTML export
+src/types/             Shared TypeScript models
+tests/                 Core automated tests
+scripts/               TypeScript loader used by the tests
+docs/                  Assessment justification
 ```
 
-## GitHub publishing
+## Important files
 
-The project is configured for `Shadovv909/cse3cwa-assessment-1`, includes a clean local Git history, and has a GitHub Actions workflow that runs `npm ci` and `npm run check` on pushes and pull requests. Creating or pushing to the remote account still requires Jacob’s one-time authenticated GitHub session.
+- `package.json` — dependencies and run/check commands.
+- `package-lock.json` — reproducible public npm dependency versions.
+- `src/config/site.ts` — student name, number, and repository URL.
+- `docs/ASSESSMENT_JUSTIFICATION.md` — approximately 900-word design justification.
+- `.github/workflows/ci.yml` — automatic GitHub validation on pushes and pull requests.
 
-The preferred method is to clone the supplied Git bundle because it restores the prepared multi-commit history:
+## GitHub
 
-```bash
-git clone cse3cwa-assessment-1-Jacob-Fenollar-22421357.git.bundle cse3cwa-assessment-1
-cd cse3cwa-assessment-1
-./scripts/publish-to-github.sh
+The repository should be published at:
+
+```text
+https://github.com/Shadovv909/cse3cwa-assessment-1
 ```
 
-The assessment ZIP can also be extracted and published directly. In that case the script detects that `.git` was intentionally excluded, initialises a repository, and creates a submission commit before publishing. The script then uses GitHub CLI browser authentication, creates the public repository when it does not already exist, configures `origin`, and pushes `main`. Never place a GitHub password or personal access token in source files or chat messages.
+From this folder, after creating an empty public repository on GitHub, the standard commands are:
 
-## Assessment documentation
+```powershell
+git init -b main
+git add .
+git commit -m "Complete CSE3CWA Assessment Task 1"
+git remote add origin https://github.com/Shadovv909/cse3cwa-assessment-1.git
+git push -u origin main
+```
 
-- `docs/ASSESSMENT_JUSTIFICATION.md` — approximately 900-word verbal justification.
-- `docs/RUBRIC_ALIGNMENT.md` — criterion-by-criterion implementation evidence.
-- `docs/TESTING_CHECKLIST.md` — completed automated and browser checks.
-- `docs/VIDEO_WALKTHROUGH_SCRIPT.md` — a concise demonstration plan covering the mandatory student ID, face, voice, and application features.
-- `docs/SUBMISSION_CHECKLIST.md` — final ZIP, GitHub, and video steps.
+GitHub will request authentication through the browser or Git Credential Manager. Do not place a password or personal access token in the project files.
