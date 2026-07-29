@@ -12,13 +12,20 @@
     "node": ">=20.9.0"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint",
-    "typecheck": "tsc --noEmit",
-    "check": "npm run lint && npm run typecheck && npm test && npm run build",
-    "test": "node --test --experimental-loader ./scripts/typescript-loader.mjs tests/*.test.mjs"
+    "verify:dependencies": "node scripts/verify-dependencies.mjs",
+    "predev": "npm run verify:dependencies",
+    "dev": "node ./node_modules/next/dist/bin/next dev",
+    "prebuild": "npm run verify:dependencies",
+    "build": "node ./node_modules/next/dist/bin/next build",
+    "prestart": "npm run verify:dependencies",
+    "start": "node ./node_modules/next/dist/bin/next start",
+    "prelint": "npm run verify:dependencies",
+    "lint": "node ./node_modules/eslint/bin/eslint.js .",
+    "pretypecheck": "npm run verify:dependencies",
+    "typecheck": "node ./node_modules/typescript/bin/tsc --noEmit",
+    "pretest": "npm run verify:dependencies",
+    "test": "node --test --experimental-loader ./scripts/typescript-loader.mjs tests/*.test.mjs",
+    "check": "npm run lint && npm run typecheck && npm test && npm run build"
   },
   "dependencies": {
     "next": "16.2.10",
@@ -26,12 +33,12 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
+    "@types/node": "20.19.43",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.5",
     "eslint-config-next": "16.2.10",
-    "typescript": "^5"
+    "typescript": "5.9.3"
   },
   "overrides": {
     "postcss": "8.5.20"
