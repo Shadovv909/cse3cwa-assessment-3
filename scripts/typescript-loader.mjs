@@ -13,9 +13,7 @@ async function existingTypeScriptPath(basePath) {
     try {
       const stat = await fs.stat(candidate);
       if (stat.isFile()) return candidate;
-    } catch {
-      // Continue to the next candidate.
-    }
+    } catch {}
   }
   return null;
 }

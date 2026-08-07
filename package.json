@@ -12,18 +12,11 @@
     "node": ">=20.9.0"
   },
   "scripts": {
-    "verify:dependencies": "node scripts/verify-dependencies.mjs",
-    "predev": "npm run verify:dependencies",
-    "dev": "node ./node_modules/next/dist/bin/next dev",
-    "prebuild": "npm run verify:dependencies",
-    "build": "node ./node_modules/next/dist/bin/next build",
-    "prestart": "npm run verify:dependencies",
-    "start": "node ./node_modules/next/dist/bin/next start",
-    "prelint": "npm run verify:dependencies",
-    "lint": "node ./node_modules/eslint/bin/eslint.js .",
-    "pretypecheck": "npm run verify:dependencies",
-    "typecheck": "node ./node_modules/typescript/bin/tsc --noEmit",
-    "pretest": "npm run verify:dependencies",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
     "test": "node --test --experimental-loader ./scripts/typescript-loader.mjs tests/*.test.mjs",
     "check": "npm run lint && npm run typecheck && npm test && npm run build"
   },
