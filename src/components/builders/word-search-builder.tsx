@@ -145,7 +145,7 @@ export function WordSearchBuilder() {
     setActiveWordId(nextWords[0].id);
     setTitle(`HCE sound search: ${selectedSet.label}`);
     setSeed((current) => current + 1);
-    setNotice(`Loaded “${selectedSet.label}” from the supplied HCE corpus.`);
+    setNotice(`Loaded '${selectedSet.label}' from the supplied HCE corpus.`);
   };
 
   const addPhoneme = (symbol: string) => {
@@ -158,7 +158,7 @@ export function WordSearchBuilder() {
       phonemes: [...activeWord.phonemes, symbol],
     });
     setSeed((current) => current + 1);
-    setNotice(`${getPhonemeHint(symbol)} added to “${activeWord.english}”.`);
+    setNotice(`${getPhonemeHint(symbol)} added to '${activeWord.english}'.`);
   };
 
   const removePhoneme = (wordId: string, index: number) => {
@@ -232,7 +232,7 @@ export function WordSearchBuilder() {
               value=""
               onChange={(event) => loadCorpusSet(Number(event.target.value))}
             >
-              <option value="">Choose an optional five-word set…</option>
+              <option value="">Choose an optional five-word set...</option>
               {hceWordSearchSets.map((set, index) => (
                 <option key={set.label} value={index}>
                   {set.label}: {set.words.join(", ")}
@@ -391,7 +391,7 @@ export function WordSearchBuilder() {
             </span>
             <div>
               <h3 id="word-search-palette-title">
-                Phoneme palette for “{activeWord?.english || "selected word"}”
+                Phoneme palette for '{activeWord?.english || "selected word"}'
               </h3>
               <p>Select a word above, then add sounds from this palette.</p>
             </div>

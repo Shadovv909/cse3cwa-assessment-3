@@ -62,5 +62,5 @@ export function formatPhoneme(symbol: string) {
 export function getPhonemeHint(symbol: string) {
   const option = phonemeBySymbol.get(symbol);
   if (!option) return formatPhoneme(symbol);
-  return `${formatPhoneme(symbol)} — ${option.label} (as in “${option.example}”)`;
+  return `${formatPhoneme(symbol)}: ${option.label} (as in '${option.example}')`;
 }

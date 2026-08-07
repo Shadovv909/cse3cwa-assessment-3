@@ -338,10 +338,10 @@ export function buildWordleHtml(config: WordleConfig) {
       current = [];
       if (won) {
         finished = true;
-        status.textContent = "Correct — the English word is “" + config.englishWord + "”.";
+        status.textContent = "Correct. The English word is '" + config.englishWord + "'.";
       } else if (guesses.length >= config.maxAttempts) {
         finished = true;
-        status.textContent = "Activity complete. The English answer was “" + config.englishWord + "”.";
+        status.textContent = "Activity complete. The English answer was '" + config.englishWord + "'.";
       } else {
         status.textContent = "Good try. Use the symbols to refine the next sequence.";
       }
@@ -568,7 +568,7 @@ export function buildWordSearchHtml(
       } else {
         foundWords.add(word.id);
         placement.cells.forEach(function (coordinate) { foundCells.add(key(coordinate)); });
-        status.textContent = foundWords.size === config.words.length ? "Excellent — every target sequence has been found." : "Found “" + word.english + "”. " + (config.words.length - foundWords.size) + " sequence(s) remain.";
+        status.textContent = foundWords.size === config.words.length ? "Excellent. Every target sequence has been found." : "Found '" + word.english + "'. " + (config.words.length - foundWords.size) + " sequence(s) remain.";
       }
       renderGrid();
       renderWords();

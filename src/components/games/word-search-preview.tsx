@@ -74,8 +74,8 @@ export function WordSearchPreview({
     setFoundCells(nextCells);
     setMessage(
       nextWords.size === config.words.length
-        ? "Excellent — every target sequence has been found."
-        : `Found “${word.english}”. ${config.words.length - nextWords.size} sequence(s) remain.`,
+        ? "Excellent. Every target sequence has been found."
+        : `Found '${word.english}'. ${config.words.length - nextWords.size} sequence(s) remain.`,
     );
   };
 

@@ -67,11 +67,11 @@ export function WordlePreview({ config }: { config: WordleConfig }) {
 
     if (won) {
       setOutcome("won");
-      setMessage(`Correct — the English word is “${config.englishWord}”.`);
+      setMessage(`Correct. The English word is '${config.englishWord}'.`);
     } else if (nextGuesses.length >= config.maxAttempts) {
       setOutcome("lost");
       setMessage(
-        `Activity complete. The English answer was “${config.englishWord}”.`,
+        `Activity complete. The English answer was '${config.englishWord}'.`,
       );
     } else {
       setMessage("Good try. Use the symbols to refine the next sequence.");

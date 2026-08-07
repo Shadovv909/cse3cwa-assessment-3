@@ -96,7 +96,7 @@ export function WordleBuilder() {
       target: [...example.phonemes],
     }));
     setNotice(
-      `Loaded “${example.english}” from the supplied broad HCE phoneme corpus.`,
+      `Loaded '${example.english}' from the supplied broad HCE phoneme corpus.`,
     );
   };
 
@@ -225,12 +225,12 @@ export function WordleBuilder() {
               value=""
               onChange={(event) => loadCorpusExample(event.target.value)}
             >
-              <option value="">Choose an optional example…</option>
+              <option value="">Choose an optional example...</option>
               {([3, 4, 5] as const).map((length) => (
                 <optgroup key={length} label={`${length} phonemes`}>
                   {hceCorpusByLength[length].map((entry) => (
                     <option key={entry.english} value={entry.english}>
-                      {entry.english} — {entry.phonemes.map(formatPhoneme).join(" ")}
+                      {entry.english}: {entry.phonemes.map(formatPhoneme).join(" ")}
                     </option>
                   ))}
                 </optgroup>

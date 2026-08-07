@@ -134,6 +134,6 @@ test("exports self-contained Wordle and Word Search HTML documents", () => {
     assert.doesNotMatch(html, /<link[^>]+stylesheet/i);
   }
   assert.match(wordle, /button\.dataset\.symbol/);
-  assert.match(wordle, /\/θ\/ — TH \(as in/);
+  assert.match(wordle, /\/θ\/: TH \(as in/);
   assert.match(search, /gridData\.placements/);
 });

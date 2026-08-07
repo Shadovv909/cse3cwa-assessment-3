@@ -8,7 +8,7 @@ const activities = [
     icon: "/ʃ/",
     description:
       "Build a short target sound sequence, choose attempts and hints, then test the playable output.",
-    details: ["2–6 phoneme targets", "Guided to challenge modes", "Inline spelling hints"],
+    details: ["2 to 6 phoneme targets", "Guided to challenge modes", "Inline spelling hints"],
   },
   {
     href: "/word-search",

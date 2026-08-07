@@ -10,9 +10,9 @@ export function SiteFooter() {
         </div>
         <p className="student-details">
           <span>{siteConfig.authorName}</span>
-          <span aria-hidden="true">·</span>
+          <span aria-hidden="true">|</span>
           <span>{siteConfig.studentNumber}</span>
-          <span aria-hidden="true">·</span>
+          <span aria-hidden="true">|</span>
           <a href={siteConfig.repositoryUrl} target="_blank" rel="noreferrer">
             GitHub repository
           </a>

@@ -1,4 +1,4 @@
-# CSE3CWA Assessment Task 1 — Phoneme Studio
+# CSE3CWA Assessment Task 1: Phoneme Studio
 
 **Student:** Jacob Fenollar  
 **Student number:** 22421357  
@@ -8,11 +8,11 @@ Phoneme Studio is a frontend-only Next.js application for teachers to create, pr
 
 ## Included pages
 
-- **Home** — project introduction and links to both activity builders.
-- **About** — purpose, Assessment 1 scope, architecture, accessibility, and planned future expansion.
-- **Wordle** — configurable phoneme Wordle builder with a playable preview.
-- **Word Search** — configurable phoneme Word Search builder using a small editable word list.
-- **Settings** — persistent light/dark theme and comfortable/compact spacing preferences.
+- **Home:** project introduction and links to both activity builders.
+- **About:** purpose, Assessment 1 scope, architecture, accessibility, and planned future expansion.
+- **Wordle:** configurable phoneme Wordle builder with a playable preview.
+- **Word Search:** configurable phoneme Word Search builder using a small editable word list.
+- **Settings:** persistent light/dark theme and comfortable/compact spacing preferences.
 
 The supplied broad HCE corpus is stored in `src/data/`. It includes the supplied phoneme inventory and 90 example words grouped into three-, four-, and five-phoneme entries.
 
@@ -113,14 +113,14 @@ docs/                  Assessment justification
 
 ## Important files
 
-- `package.json` — dependencies and run/check commands.
-- `package-lock.json` — reproducible public npm dependency versions.
-- `.npmrc` — ensures assessment development tools are installed locally.
-- `RUN-WEBSITE-WINDOWS.bat` — first-run installer and Next.js launcher.
-- `CHECK-PROJECT-WINDOWS.bat` — first-run installer and complete validation launcher.
-- `src/config/site.ts` — student name, number, and repository URL.
-- `docs/ASSESSMENT_JUSTIFICATION.md` — approximately 900-word design justification.
-- `.github/workflows/ci.yml` — automatic GitHub validation on pushes and pull requests.
+- `package.json`: dependencies and run/check commands.
+- `package-lock.json`: reproducible public npm dependency versions.
+- `.npmrc`: ensures assessment development tools are installed locally.
+- `RUN-WEBSITE-WINDOWS.bat`: first-run installer and Next.js launcher.
+- `CHECK-PROJECT-WINDOWS.bat`: first-run installer and complete validation launcher.
+- `src/config/site.ts`: student name, number, and repository URL.
+- `docs/ASSESSMENT_JUSTIFICATION.md`: approximately 900-word design justification.
+- `.github/workflows/ci.yml`: automatic GitHub validation on pushes and pull requests.
 
 ## GitHub
 
