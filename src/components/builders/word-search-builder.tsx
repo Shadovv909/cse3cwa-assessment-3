@@ -391,7 +391,7 @@ export function WordSearchBuilder() {
             </span>
             <div>
               <h3 id="word-search-palette-title">
-                Phoneme palette for '{activeWord?.english || "selected word"}'
+                Phoneme palette for &apos;{activeWord?.english || "selected word"}&apos;
               </h3>
               <p>Select a word above, then add sounds from this palette.</p>
             </div>
