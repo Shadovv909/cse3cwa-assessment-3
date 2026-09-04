@@ -1,4 +1,4 @@
-name: Frontend checks
+name: Backend and Docker checks
 
 on:
   push:
@@ -6,17 +6,44 @@ on:
   pull_request:
 
 jobs:
-  check:
+  application:
     runs-on: ubuntu-latest
+    env:
+      DATABASE_PATH: data/ci-test.db
+      DATABASE_SEED: "0"
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-      - name: Use Node.js 22
+      - name: Use Node.js 22.16
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 22.16.0
           cache: npm
       - name: Install dependencies
         run: npm ci
       - name: Run lint, type, unit and production checks
         run: npm run check
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: application
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Build Docker image
+        run: docker build --tag cse3cwa-assessment-2 .
+      - name: Run Docker container
+        run: docker run --detach --name cse3cwa-assessment-2 --publish 3000:3000 cse3cwa-assessment-2
+      - name: Verify health endpoint
+        run: |
+          for attempt in {1..20}; do
+            if curl --fail --silent http://127.0.0.1:3000/health; then
+              exit 0
+            fi
+            sleep 2
+          done
+          docker logs cse3cwa-assessment-2
+          exit 1
+      - name: Stop Docker container
+        if: always()
+        run: docker rm --force cse3cwa-assessment-2 || true

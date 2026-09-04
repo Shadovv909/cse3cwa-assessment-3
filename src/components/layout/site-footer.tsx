@@ -6,7 +6,7 @@ export function SiteFooter() {
       <div className="site-footer__inner">
         <div>
           <strong>{siteConfig.title}</strong>
-          <p>Frontend phoneme activity builder for Speech Pathology teaching.</p>
+          <p>Database-backed phoneme activity builder for Speech Pathology teaching.</p>
         </div>
         <p className="student-details">
           <span>{siteConfig.authorName}</span>

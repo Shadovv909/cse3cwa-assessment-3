@@ -141,7 +141,7 @@ export function generatePhonemeGrid(
   difficulty: ActivityDifficulty,
   seed = 0,
 ): WordSearchGrid {
-  const normalisedSize = Math.max(6, Math.min(12, gridSize));
+  const normalisedSize = Math.max(6, Math.min(14, gridSize));
   const grid: Array<Array<string | null>> = Array.from(
     { length: normalisedSize },
     () => Array.from({ length: normalisedSize }, () => null),

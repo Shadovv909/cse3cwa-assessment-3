@@ -14,6 +14,7 @@ import type {
   PhonemeWord,
   WordSearchConfig,
 } from "@/types/activities";
+import type { StoredActivity } from "@/types/database";
 
 function buildCorpusWords(englishWords: readonly string[]): PhonemeWord[] {
   return englishWords.map((english, index) => {
@@ -51,19 +52,50 @@ const difficultyOptions: Array<{
   },
 ];
 
-export function WordSearchBuilder() {
+export function WordSearchBuilder({
+  initialActivity,
+}: {
+  initialActivity?: StoredActivity | null;
+}) {
   const { theme } = useSettings();
   const wordCounter = useRef(0);
-  const [title, setTitle] = useState("Sound search: familiar words");
-  const [words, setWords] = useState(defaultWords);
-  const [activeWordId, setActiveWordId] = useState(defaultWords[0].id);
-  const [gridSize, setGridSize] = useState(9);
-  const [difficulty, setDifficulty] =
-    useState<ActivityDifficulty>("standard");
-  const [showEnglishHints, setShowEnglishHints] = useState(true);
-  const [seed, setSeed] = useState(0);
+  const initialWords: PhonemeWord[] =
+    initialActivity?.activityType === "WORD_SEARCH"
+      ? initialActivity.wordList.words.map((word) => ({
+          id: word.id,
+          english: word.english,
+          phonemes: [...word.phonemes],
+        }))
+      : defaultWords;
+  const [title, setTitle] = useState(
+    initialActivity?.activityType === "WORD_SEARCH"
+      ? initialActivity.outputTitle
+      : "Sound search: familiar words",
+  );
+  const [words, setWords] = useState(initialWords);
+  const [activeWordId, setActiveWordId] = useState(initialWords[0]?.id || "");
+  const [gridSize, setGridSize] = useState(
+    initialActivity?.activityType === "WORD_SEARCH"
+      ? initialActivity.gridSize || 10
+      : 9,
+  );
+  const [difficulty, setDifficulty] = useState<ActivityDifficulty>(
+    initialActivity?.activityType === "WORD_SEARCH"
+      ? initialActivity.difficulty
+      : "standard",
+  );
+  const [showEnglishHints, setShowEnglishHints] = useState(
+    initialActivity?.activityType === "WORD_SEARCH"
+      ? initialActivity.showHints
+      : true,
+  );
+  const [seed, setSeed] = useState(
+    initialActivity?.activityType === "WORD_SEARCH" ? initialActivity.seed : 0,
+  );
   const [notice, setNotice] = useState(
-    "Edit the target list, preview the generated grid, then download one HTML file.",
+    initialActivity?.activityType === "WORD_SEARCH"
+      ? `Loaded '${initialActivity.name}' from the SQLite database.`
+      : "Edit the target list, preview the generated grid, then download one HTML file.",
   );
 
   const config: WordSearchConfig = {
@@ -72,7 +104,7 @@ export function WordSearchBuilder() {
     gridSize,
     difficulty,
     showEnglishHints,
-    theme,
+    theme: initialActivity?.theme || theme,
     seed,
   };
 
@@ -85,14 +117,14 @@ export function WordSearchBuilder() {
     const next: string[] = [];
     if (!title.trim()) next.push("Add an activity title.");
     if (words.length < 3) next.push("Include at least three target words.");
-    if (words.length > 6) next.push("Use no more than six words in this prototype.");
+    if (words.length > 10) next.push("Use no more than ten words in one generated activity.");
     words.forEach((word, index) => {
       if (!word.english.trim())
         next.push(`Word ${index + 1} needs an English equivalent.`);
       if (word.phonemes.length < 2)
         next.push(`Word ${index + 1} needs at least two phonemes.`);
-      if (word.phonemes.length > 6)
-        next.push(`Word ${index + 1} has more than six phonemes.`);
+      if (word.phonemes.length > 8)
+        next.push(`Word ${index + 1} has more than eight phonemes.`);
     });
     if (grid.placements.length !== words.length)
       next.push("Increase the grid size or shorten a word so every sequence fits.");
@@ -108,8 +140,8 @@ export function WordSearchBuilder() {
   };
 
   const addWord = () => {
-    if (words.length >= 6) {
-      setNotice("The prototype supports a maximum of six target words.");
+    if (words.length >= 10) {
+      setNotice("The builder supports a maximum of ten target words.");
       return;
     }
     wordCounter.current += 1;
@@ -150,8 +182,8 @@ export function WordSearchBuilder() {
 
   const addPhoneme = (symbol: string) => {
     if (!activeWord) return;
-    if (activeWord.phonemes.length >= 6) {
-      setNotice("Each prototype word supports a maximum of six phonemes.");
+    if (activeWord.phonemes.length >= 8) {
+      setNotice("Each word supports a maximum of eight phonemes.");
       return;
     }
     updateWord(activeWord.id, {
@@ -240,8 +272,8 @@ export function WordSearchBuilder() {
               ))}
             </select>
             <small>
-              The supplied examples remain editable and are held only in React
-              state.
+              Use the Data Library to store custom lists and reuse them across
+              saved activity configurations.
             </small>
           </label>
 
@@ -256,7 +288,7 @@ export function WordSearchBuilder() {
                   setSeed((current) => current + 1);
                 }}
               >
-                {[8, 9, 10, 11].map((size) => (
+                {[8, 9, 10, 11, 12, 13, 14].map((size) => (
                   <option key={size} value={size}>
                     {size} × {size}
                   </option>
@@ -312,7 +344,7 @@ export function WordSearchBuilder() {
             <button
               className="button button--secondary button--small"
               type="button"
-              disabled={words.length >= 6}
+              disabled={words.length >= 10}
               onClick={addWord}
             >
               Add word
@@ -398,7 +430,7 @@ export function WordSearchBuilder() {
           </div>
           <PhonemePalette
             labelledBy="word-search-palette-title"
-            disabled={!activeWord || activeWord.phonemes.length >= 6}
+            disabled={!activeWord || activeWord.phonemes.length >= 8}
             onSelect={addPhoneme}
           />
         </div>
@@ -446,14 +478,24 @@ export function WordSearchBuilder() {
           <p className="builder-notice" role="status" aria-live="polite">
             {notice}
           </p>
-          <button
-            className="button button--primary"
-            type="button"
-            disabled={errors.length > 0}
-            onClick={download}
-          >
-            Generate standalone HTML
-          </button>
+          <div className="builder-footer__actions">
+            {initialActivity?.activityType === "WORD_SEARCH" ? (
+              <a
+                className="button button--secondary"
+                href={`/api/activities/${initialActivity.id}/export`}
+              >
+                Download stored HTML
+              </a>
+            ) : null}
+            <button
+              className="button button--primary"
+              type="button"
+              disabled={errors.length > 0}
+              onClick={download}
+            >
+              Generate current HTML
+            </button>
+          </div>
         </div>
       </section>
 

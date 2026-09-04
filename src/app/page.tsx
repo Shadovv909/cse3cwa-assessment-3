@@ -1,22 +1,24 @@
 import Link from "next/link";
 import { PageHeading } from "@/components/ui/page-heading";
 
-const activities = [
+const capabilities = [
   {
-    href: "/wordle",
-    label: "Phoneme Wordle",
-    icon: "/ʃ/",
-    description:
-      "Build a short target sound sequence, choose attempts and hints, then test the playable output.",
-    details: ["2 to 6 phoneme targets", "Guided to challenge modes", "Inline spelling hints"],
+    title: "Persistent word lists",
+    detail:
+      "Store English words, optional hints and ordered phoneme symbols in SQLite instead of relying on temporary browser state.",
+    icon: "/dʒ/",
   },
   {
-    href: "/word-search",
-    label: "Phoneme Word Search",
+    title: "Reusable configurations",
+    detail:
+      "Save Wordle or Word Search type, difficulty, hint, theme and output settings for later retrieval and editing.",
+    icon: "/ɜː/",
+  },
+  {
+    title: "Stored-data exports",
+    detail:
+      "Generate one self-contained HTML activity through a backend route using the current database records.",
     icon: "/ŋ/",
-    description:
-      "Create a compact list of phoneme-based words and generate a selectable classroom search grid.",
-    details: ["Approximately five words", "Horizontal, vertical and diagonal", "Shuffleable layouts"],
   },
 ] as const;
 
@@ -26,64 +28,59 @@ export default function HomePage() {
       <section className="hero-section">
         <div className="hero-copy">
           <span className="hero-kicker">
-            <span aria-hidden="true">●</span> Frontend-only assessment prototype
+            <span aria-hidden="true">●</span> Backend and database implementation
           </span>
-          <h1>Turn phoneme practice into a classroom-ready web activity.</h1>
+          <h1>Build once, save it, edit it and use it again.</h1>
           <p>
-            Phoneme Studio helps Speech Pathology teachers configure, preview
-            and download accessible Wordle and Word Search activities without a
-            database or server.
+            Phoneme Studio now combines the accessible Assessment 1 interface
+            with Next.js API routes, input validation, SQLite persistence and
+            Docker execution for a reproducible classroom activity workflow.
           </p>
           <div className="hero-actions">
-            <Link className="button button--primary" href="/wordle">
-              Build a Wordle
+            <Link className="button button--primary" href="/library">
+              Open the Data Library
             </Link>
-            <Link className="button button--secondary" href="/word-search">
-              Build a Word Search
+            <Link className="button button--secondary" href="/health">
+              Check backend health
             </Link>
           </div>
           <dl className="hero-stats">
             <div>
-              <dt>2</dt>
-              <dd>activity builders</dd>
+              <dt>4</dt>
+              <dd>CRUD operations</dd>
             </div>
             <div>
-              <dt>90</dt>
-              <dd>supplied HCE word presets</dd>
+              <dt>2</dt>
+              <dd>stored activity types</dd>
             </div>
             <div>
               <dt>1</dt>
-              <dd>standalone HTML per export</dd>
+              <dd>Docker command to run</dd>
             </div>
           </dl>
         </div>
-        <div className="hero-visual" aria-label="Stylised preview of phoneme activity tiles">
+        <div className="hero-visual" aria-label="Database-backed phoneme activity preview">
           <div className="visual-toolbar">
             <span />
             <span />
             <span />
-            <b>Teacher preview</b>
+            <b>SQLite activity record</b>
           </div>
-          <div className="visual-content">
-            <div className="visual-title">
-              <small>Target sequence</small>
-              <strong>/ʃ/ /ɪ/ /p/</strong>
+          <div className="visual-content database-visual">
+            <div className="database-visual__row">
+              <small>Word list</small>
+              <strong>Starter three-phoneme words</strong>
             </div>
             <div className="visual-tiles" aria-hidden="true">
-              <span data-state="correct">/ʃ/<i>✓</i></span>
-              <span data-state="present">/p/<i>↔</i></span>
-              <span data-state="absent">/t/<i>×</i></span>
+              <span data-state="correct">/ʃ/<i>1</i></span>
+              <span data-state="correct">/ɪ/<i>2</i></span>
+              <span data-state="correct">/p/<i>3</i></span>
             </div>
-            <div className="visual-palette" aria-hidden="true">
-              <span>/m/</span>
-              <span>/n/</span>
-              <span>/ŋ/</span>
-              <span>/ɪ/</span>
-              <span>/ʃ/</span>
-              <span>/p/</span>
+            <div className="database-visual__flow" aria-hidden="true">
+              <span>React form</span><b>→</b><span>API route</span><b>→</b><span>SQLite</span>
             </div>
             <div className="visual-download">
-              <span>Standalone output</span>
+              <span>Stored output</span>
               <b>.html</b>
             </div>
           </div>
@@ -91,30 +88,19 @@ export default function HomePage() {
       </section>
 
       <PageHeading
-        eyebrow="Choose a tool"
-        title="Two focused classroom activity builders"
-        description="Each builder follows the same configure, preview and export workflow so teachers do not need to learn a different interface for every activity."
+        eyebrow="Assessment 2 capabilities"
+        title="A data-driven teaching workflow"
+        description="The frontend remains familiar, while a structured backend now controls persistence, validation, retrieval and output generation."
       />
 
-      <section className="activity-card-grid" aria-label="Activity builders">
-        {activities.map((activity) => (
-          <article className="activity-card" key={activity.href}>
-            <div className="activity-card__icon" aria-hidden="true">
-              {activity.icon}
-            </div>
+      <section className="activity-card-grid activity-card-grid--three" aria-label="Backend capabilities">
+        {capabilities.map((capability) => (
+          <article className="activity-card" key={capability.title}>
+            <div className="activity-card__icon" aria-hidden="true">{capability.icon}</div>
             <div className="activity-card__content">
-              <p className="eyebrow">Builder</p>
-              <h2>{activity.label}</h2>
-              <p>{activity.description}</p>
-              <ul className="check-list">
-                {activity.details.map((detail) => (
-                  <li key={detail}>{detail}</li>
-                ))}
-              </ul>
-              <Link className="card-link" href={activity.href}>
-                Open {activity.label}
-                <span aria-hidden="true">→</span>
-              </Link>
+              <p className="eyebrow">Data layer</p>
+              <h2>{capability.title}</h2>
+              <p>{capability.detail}</p>
             </div>
           </article>
         ))}
@@ -122,51 +108,32 @@ export default function HomePage() {
 
       <section className="workflow-section" aria-labelledby="workflow-title">
         <div className="workflow-heading">
-          <p className="eyebrow">Simple workflow</p>
-          <h2 id="workflow-title">From teaching idea to playable file</h2>
+          <p className="eyebrow">Persistent workflow</p>
+          <h2 id="workflow-title">Create, configure and export from stored data</h2>
           <p>
-            The interface keeps authoring controls separate from the student
-            activity preview, reducing accidental edits and making the next
-            action clear.
+            Teachers can manage records through the Data Library and then open
+            saved configurations in either activity builder.
           </p>
         </div>
         <ol className="workflow-list">
-          <li>
-            <span>01</span>
-            <div>
-              <h3>Configure</h3>
-              <p>Enter a title, difficulty and phoneme-based content.</p>
-            </div>
-          </li>
-          <li>
-            <span>02</span>
-            <div>
-              <h3>Preview</h3>
-              <p>Test the exact interaction students will receive.</p>
-            </div>
-          </li>
-          <li>
-            <span>03</span>
-            <div>
-              <h3>Download</h3>
-              <p>Generate a single HTML file that opens in a normal browser.</p>
-            </div>
-          </li>
+          <li><span>01</span><div><h3>Store</h3><p>Create a list and save ordered phoneme sequences.</p></div></li>
+          <li><span>02</span><div><h3>Configure</h3><p>Save an activity type, difficulty, hints and output settings.</p></div></li>
+          <li><span>03</span><div><h3>Generate</h3><p>Download a standalone HTML file produced from database records.</p></div></li>
         </ol>
       </section>
 
       <section className="home-callout">
         <div>
-          <p className="eyebrow">Designed for the brief</p>
-          <h2>Responsive, accessible and ready for later expansion.</h2>
+          <p className="eyebrow">Reproducible execution</p>
+          <h2>Run locally or inside Docker.</h2>
           <p>
-            Shared React components, cookie-based preferences and standalone
-            client-side exports create a practical foundation for future word
-            lists, databases and more advanced generation options.
+            The same Next.js server, SQLite schema, seed process and health
+            endpoint run in both environments, with a Docker volume preserving
+            activity data between container restarts.
           </p>
         </div>
         <Link className="button button--secondary" href="/about">
-          Read the design rationale
+          View the backend architecture
         </Link>
       </section>
     </>

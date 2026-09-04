@@ -1,0 +1,15 @@
+services:
+  phoneme-studio:
+    build: .
+    container_name: cse3cwa-assessment-2
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_PATH: /app/data/phoneme-studio.db
+      DATABASE_SEED: "1"
+    volumes:
+      - phoneme_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  phoneme_data:

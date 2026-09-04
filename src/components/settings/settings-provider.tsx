@@ -4,7 +4,6 @@ import {
   createContext,
   useContext,
   useEffect,
-  useMemo,
   useState,
   type ReactNode,
 } from "react";
@@ -120,10 +119,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     deleteCookie(DENSITY_COOKIE);
   };
 
-  const value = useMemo(
-    () => ({ theme, density, setTheme, setDensity, resetSettings }),
-    [density, theme],
-  );
+  const value = { theme, density, setTheme, setDensity, resetSettings };
 
   return (
     <SettingsContext.Provider value={value}>

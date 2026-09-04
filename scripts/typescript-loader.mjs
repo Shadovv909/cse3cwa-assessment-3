@@ -13,12 +13,18 @@ async function existingTypeScriptPath(basePath) {
     try {
       const stat = await fs.stat(candidate);
       if (stat.isFile()) return candidate;
-    } catch {}
+    } catch {
+      continue;
+    }
   }
   return null;
 }
 
 export async function resolve(specifier, context, nextResolve) {
+  if (specifier === "next/server") {
+    return nextResolve("next/server.js", context);
+  }
+
   if (specifier.startsWith("@/")) {
     const resolved = await existingTypeScriptPath(
       path.join(projectRoot, "src", specifier.slice(2)),

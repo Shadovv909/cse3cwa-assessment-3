@@ -2456,3 +2456,329 @@ h3 {
     animation-iteration-count: 1 !important;
   }
 }
+
+.button--danger {
+  border-color: color-mix(in srgb, var(--danger) 50%, var(--border));
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.button--danger:hover:not(:disabled) {
+  border-color: var(--danger);
+}
+
+.activity-card-grid--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.database-visual {
+  gap: 1.2rem;
+}
+
+.database-visual__row {
+  display: grid;
+  gap: 0.25rem;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface-muted);
+}
+
+.database-visual__row small {
+  color: var(--text-faint);
+  font-weight: 750;
+  text-transform: uppercase;
+}
+
+.database-visual__flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+}
+
+.database-visual__flow span {
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 0.65rem;
+  background: var(--surface);
+  color: var(--text-soft);
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.architecture-diagram--backend .architecture-branches {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.loading-panel,
+.library-notice {
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  color: var(--text-soft);
+}
+
+.library-stack {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.backend-status {
+  display: grid;
+  grid-template-columns: minmax(15rem, 1fr) minmax(22rem, 1.35fr) auto;
+  align-items: center;
+  gap: 1.4rem;
+  padding: 1.25rem;
+  border: 1px solid color-mix(in srgb, var(--correct) 45%, var(--border));
+  border-radius: var(--radius-lg);
+  background: color-mix(in srgb, var(--correct-soft) 55%, var(--surface));
+}
+
+.backend-status h2,
+.backend-status p,
+.backend-status dl {
+  margin-bottom: 0;
+}
+
+.backend-status > div > p:last-child {
+  color: var(--text-soft);
+}
+
+.backend-status dl {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.backend-status dl div {
+  min-width: 0;
+  padding: 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 0.7rem;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+}
+
+.backend-status dt {
+  color: var(--text-faint);
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.backend-status dd {
+  overflow: hidden;
+  margin: 0.15rem 0 0;
+  font-weight: 850;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.library-panel {
+  padding: clamp(1.1rem, 3vw, 1.65rem);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface-raised);
+  box-shadow: var(--shadow-sm);
+}
+
+.library-split {
+  display: grid;
+  grid-template-columns: minmax(15rem, 0.34fr) minmax(0, 1fr);
+  gap: 1.25rem;
+}
+
+.record-selector {
+  display: grid;
+  align-content: start;
+  gap: 0.55rem;
+}
+
+.record-selector button {
+  display: grid;
+  gap: 0.25rem;
+  width: 100%;
+  padding: 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+}
+
+.record-selector button:hover,
+.record-selector button[data-active="true"] {
+  border-color: var(--brand);
+  background: var(--brand-soft);
+}
+
+.record-selector button strong {
+  font-size: 0.9rem;
+}
+
+.record-selector button span {
+  color: var(--text-soft);
+  font-size: 0.75rem;
+}
+
+.record-selector .record-selector__new {
+  border-style: dashed;
+}
+
+.record-editor {
+  min-width: 0;
+  padding: 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface-muted);
+}
+
+.form-grid--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.text-area {
+  width: 100%;
+  min-height: 6.5rem;
+  resize: vertical;
+  padding: 0.78rem 0.85rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 0.72rem;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.inline-actions,
+.builder-footer__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.word-crud-area {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.35rem;
+  padding-top: 1.35rem;
+  border-top: 1px solid var(--border);
+}
+
+.subsection-heading {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.subsection-heading h3 {
+  margin-bottom: 0.25rem;
+}
+
+.subsection-heading p {
+  margin-bottom: 0;
+  color: var(--text-soft);
+  font-size: 0.85rem;
+}
+
+.stored-word-table {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.stored-word-table article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.72rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 0.72rem;
+  background: var(--surface);
+}
+
+.stored-word-table article > div:first-child {
+  display: grid;
+  min-width: 0;
+  gap: 0.12rem;
+}
+
+.stored-word-table article span {
+  color: var(--brand-strong);
+  font-family: "Segoe UI Symbol", "Noto Sans Symbols", sans-serif;
+  font-weight: 750;
+}
+
+.stored-word-table article small {
+  color: var(--text-faint);
+}
+
+.word-form-card {
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+}
+
+.sequence-placeholder {
+  color: var(--text-faint);
+  font-size: 0.85rem;
+}
+
+.builder-footer {
+  align-items: center;
+  gap: 1rem;
+}
+
+.builder-footer__actions {
+  justify-content: flex-end;
+}
+
+@media (max-width: 980px) {
+  .activity-card-grid--three {
+    grid-template-columns: 1fr;
+  }
+
+  .backend-status {
+    grid-template-columns: 1fr;
+  }
+
+  .backend-status dl {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .library-split {
+    grid-template-columns: 1fr;
+  }
+
+  .record-selector {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .form-grid--three,
+  .backend-status dl,
+  .record-selector {
+    grid-template-columns: 1fr;
+  }
+
+  .record-editor,
+  .library-panel {
+    padding: 0.85rem;
+  }
+
+  .stored-word-table article,
+  .subsection-heading {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .builder-footer__actions,
+  .builder-footer__actions .button {
+    width: 100%;
+  }
+}

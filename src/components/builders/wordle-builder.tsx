@@ -9,6 +9,7 @@ import { formatPhoneme, getPhonemeHint } from "@/data/phonemes";
 import { downloadHtmlFile, slugifyFileName } from "@/lib/download";
 import { buildWordleHtml } from "@/lib/export-html";
 import type { ActivityDifficulty, WordleConfig } from "@/types/activities";
+import type { StoredActivity } from "@/types/database";
 
 const difficultyOptions: Array<{
   value: ActivityDifficulty;
@@ -41,11 +42,31 @@ const defaultConfig = {
   showHints: true,
 };
 
-export function WordleBuilder() {
+export function WordleBuilder({
+  initialActivity,
+}: {
+  initialActivity?: StoredActivity | null;
+}) {
   const { theme } = useSettings();
-  const [draft, setDraft] = useState(defaultConfig);
+  const initialTarget = initialActivity?.wordList.words.find(
+    (word) => word.id === initialActivity.targetWordId,
+  );
+  const [draft, setDraft] = useState(() =>
+    initialActivity && initialTarget
+      ? {
+          title: initialActivity.outputTitle,
+          englishWord: initialTarget.english,
+          target: [...initialTarget.phonemes],
+          maxAttempts: initialActivity.maxAttempts || 6,
+          difficulty: initialActivity.difficulty,
+          showHints: initialActivity.showHints,
+        }
+      : defaultConfig,
+  );
   const [notice, setNotice] = useState(
-    "Configure the activity, test it in the preview, then download one HTML file.",
+    initialActivity
+      ? `Loaded '${initialActivity.name}' from the SQLite database.`
+      : "Configure the activity, test it in the preview, then download one HTML file.",
   );
 
   const errors = useMemo(() => {
@@ -54,8 +75,8 @@ export function WordleBuilder() {
     if (!draft.englishWord.trim()) next.push("Add the English answer.");
     if (draft.target.length < 2)
       next.push("Use at least two phonemes in the target sequence.");
-    if (draft.target.length > 6)
-      next.push("Use no more than six phonemes for this prototype.");
+    if (draft.target.length > 8)
+      next.push("Use no more than eight phonemes.");
     return next;
   }, [draft]);
 
@@ -63,12 +84,12 @@ export function WordleBuilder() {
     ...draft,
     title: draft.title.trim() || "Untitled phoneme Wordle",
     englishWord: draft.englishWord.trim() || "answer",
-    theme,
+    theme: initialActivity?.theme || theme,
   };
 
   const addPhoneme = (symbol: string) => {
-    if (draft.target.length >= 6) {
-      setNotice("The prototype supports a maximum of six phonemes per word.");
+    if (draft.target.length >= 8) {
+      setNotice("The builder supports a maximum of eight phonemes per word.");
       return;
     }
     setDraft((current) => ({
@@ -237,8 +258,8 @@ export function WordleBuilder() {
               ))}
             </select>
             <small>
-              These are static broad HCE examples supplied for Assessment 1,
-              not a database-backed word list.
+              Use the Data Library to save custom words and reusable activity
+              settings in the database.
             </small>
           </label>
         </div>
@@ -326,7 +347,7 @@ export function WordleBuilder() {
 
           <PhonemePalette
             labelledBy="target-sequence-title"
-            disabled={draft.target.length >= 6}
+            disabled={draft.target.length >= 8}
             onSelect={addPhoneme}
           />
         </div>
@@ -354,14 +375,24 @@ export function WordleBuilder() {
           <p className="builder-notice" role="status" aria-live="polite">
             {notice}
           </p>
-          <button
-            className="button button--primary"
-            type="button"
-            disabled={errors.length > 0}
-            onClick={download}
-          >
-            Generate standalone HTML
-          </button>
+          <div className="builder-footer__actions">
+            {initialActivity ? (
+              <a
+                className="button button--secondary"
+                href={`/api/activities/${initialActivity.id}/export`}
+              >
+                Download stored HTML
+              </a>
+            ) : null}
+            <button
+              className="button button--primary"
+              type="button"
+              disabled={errors.length > 0}
+              onClick={download}
+            >
+              Generate current HTML
+            </button>
+          </div>
         </div>
       </section>
 
