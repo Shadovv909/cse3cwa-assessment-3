@@ -184,10 +184,10 @@ export function WordlePreview({ config }: { config: WordleConfig }) {
                 disabled={finished}
                 title={getPhonemeHint(option.symbol)}
                 data-hint={getPhonemeHint(option.symbol)}
-                aria-label={`Choose ${getPhonemeHint(option.symbol)}`}
-                onClick={() => addPhoneme(option.symbol)}
+                  onClick={() => addPhoneme(option.symbol)}
               >
-                <span>{formatPhoneme(option.symbol)}</span>
+                  <span>{formatPhoneme(option.symbol)}</span>
+                  <span className="sr-only">Choose {getPhonemeHint(option.symbol)}</span>
                 {config.showHints ? <small>{option.label}</small> : null}
               </button>
             ))}

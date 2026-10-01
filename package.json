@@ -1,25 +1,27 @@
 {
-  "name": "cse3cwa-assessment-2",
-  "version": "0.2.0",
+  "name": "cse3cwa-assessment-3",
+  "version": "0.3.0",
   "private": true,
   "description": "Database-backed Next.js builder for phoneme Wordle and Word Search classroom activities.",
   "author": "Jacob Fenollar (22421357)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shadovv909/CSE3CWA-Assessments.git"
+    "url": "git+https://github.com/Shadovv909/cse3cwa-assessment-3.git"
   },
   "engines": {
-    "node": ">=22.13.0"
+    "node": ">=22.19.0"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "node --test --experimental-loader ./scripts/typescript-loader.mjs tests/*.test.mjs",
     "check": "npm run lint && npm run typecheck && npm test && npm run build",
-    "db:reset": "node ./scripts/reset-database.mjs"
+    "db:reset": "node ./scripts/reset-database.mjs",
+    "test:e2e": "playwright test",
+    "test:accessibility": "node scripts/accessibility.mjs"
   },
   "dependencies": {
     "next": "16.2.10",
@@ -27,11 +29,13 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@playwright/test": "1.63.0",
     "@types/node": "20.19.43",
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "eslint": "9.39.5",
     "eslint-config-next": "16.2.10",
+    "lighthouse": "13.5.0",
     "typescript": "5.9.3"
   },
   "overrides": {

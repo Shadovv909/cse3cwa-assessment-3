@@ -2,6 +2,7 @@ import { buildWordSearchHtml, buildWordleHtml } from "@/lib/export-html";
 import { generatePhonemeGrid } from "@/lib/word-search";
 import { apiError, handleApiError } from "@/server/api";
 import { getActivity } from "@/server/database";
+import { recordGeneration } from "@/server/observability";
 import type { WordSearchConfig, WordleConfig } from "@/types/activities";
 
 export const runtime = "nodejs";
@@ -17,7 +18,7 @@ function attachmentHeaders(fileName: string) {
   };
 }
 
-export async function GET(_request: Request, context: RouteContext) {
+async function generate(_request: Request, context: RouteContext) {
   const { id } = await context.params;
   try {
     const activity = getActivity(id);
@@ -96,4 +97,19 @@ export async function GET(_request: Request, context: RouteContext) {
   } catch (error) {
     return handleApiError(error);
   }
+}
+
+export async function GET(request: Request, context: RouteContext) {
+  const started = performance.now();
+  const { id } = await context.params;
+  const response = await generate(request, context);
+  try {
+    const activity = getActivity(id);
+    const code = response.ok ? "OK" : (await response.clone().json()).error.code;
+    recordGeneration({ activityId: id, activityType: activity?.activityType ?? null,
+      success: response.ok, durationMs: performance.now() - started, code });
+  } catch (error) {
+    console.error("Generation monitoring write failed", error);
+  }
+  return response;
 }

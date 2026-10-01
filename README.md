@@ -1,10 +1,25 @@
-# CSE3CWA Assessment 2
+# CSE3CWA Assessment 3
 
 **Student:** Jacob Fenollar  
 **Student number:** 22421357  
-**Repository:** https://github.com/Shadovv909/CSE3CWA-Assessments
+**Repository:** https://github.com/Shadovv909/cse3cwa-assessment-3
 
 Phoneme Studio is a Next.js application for Speech Pathology teachers. It continues the App Router project originally created with `npx create-next-app .` for Assessment 1, then adds a backend, SQLite database, JSON API, persistent activity generation, validation, automated tests, a health endpoint and Docker execution.
+
+
+## Assessment 3 quick start
+
+Keep the project path short on Windows, for example `C:/CWA3`. Extract the archive once. The supplied top-level folder is `Jacob_Fenollar_22421357_CSE3CWA_Assessment_3`; package.json is directly inside it.
+
+Use Node.js 22.19 or newer (verified with Node 24.14), then run `npm ci`, `npm run check`, and `npm run dev`. Open `/dashboard` and `/reports` from the navigation. The original Data Library and both builders remain available. Use **Download stored HTML** in the Data Library to record real generation events. **Add simulated records** creates a separate, explicitly labelled sample history without affecting observed usage.
+
+Read `docs/ASSESSMENT_3.md` for metric definitions and limitations, `evidence/VERIFICATION.md` for measured results, and `RECORDING_SCRIPT.txt` for the recording order. `ASSESSMENT_3_REPORT.docx` is the editable supporting report for the similarity submission. Review it and follow your subject's submission and assistance-disclosure rules.
+
+Browser tests: `npx playwright install chromium`, then `npm run test:e2e`. Tests start their own server on port 3100 and use data/playwright.db. Run `npm run build` first. Load testing instructions are in `tests/load/README.md`. Evidence included in the ZIP is from actual preparation runs; rerunning tests can change the report files.
+
+The repository reference is the requested Assessment 3 address. Check `GITHUB_REFERENCE.txt` for publication status before recording. The video and similarity-score check are student tasks.
+
+## Preserved Assessment 2 functionality
 
 ## Requirements
 
@@ -140,7 +155,7 @@ npm run build
 npm run check
 ```
 
-The 12 automated tests cover the supplied HCE inventory, all 90 corpus entries, Wordle scoring, Word Search generation, standalone exports, validation, database persistence, CRUD Route Handlers and the 200 health response.
+The 13 automated tests cover the supplied HCE inventory, all 90 corpus entries, Wordle scoring, Word Search generation, standalone exports, validation, database persistence, CRUD Route Handlers and the 200 health response.
 
 ## Project structure
 
@@ -163,3 +178,5 @@ docker-compose.yml              Local container and persistent volume
 ## Submission contents
 
 The submission ZIP excludes `node_modules`, `.next`, generated database files and Git internals. It includes the source code, lock file, tests, documentation, Docker files and GitHub workflow needed to reproduce the application.
+
+\n

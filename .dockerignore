@@ -9,3 +9,7 @@ data/*.db-wal
 coverage
 *.zip
 *.bundle
+
+evidence
+test-results
+*.tsbuildinfo

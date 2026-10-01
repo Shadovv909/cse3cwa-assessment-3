@@ -1,7 +1,7 @@
 services:
   phoneme-studio:
     build: .
-    container_name: cse3cwa-assessment-2
+    container_name: cse3cwa-assessment-3
     ports:
       - "3000:3000"
     environment:
@@ -13,3 +13,5 @@ services:
 
 volumes:
   phoneme_data:
+
+\n

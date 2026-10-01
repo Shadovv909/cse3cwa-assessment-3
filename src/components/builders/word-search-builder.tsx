@@ -391,11 +391,11 @@ export function WordSearchBuilder({
                         type="button"
                         key={`${phoneme}-${phonemeIndex}`}
                         title={`Remove ${getPhonemeHint(phoneme)}`}
-                        aria-label={`Remove ${formatPhoneme(phoneme)} from ${word.english}`}
                         onClick={() => removePhoneme(word.id, phonemeIndex)}
                       >
                         <span>{formatPhoneme(phoneme)}</span>
                         <small aria-hidden="true">×</small>
+                        <span className="sr-only">Remove from {word.english}</span>
                       </button>
                     ))}
                   </div>

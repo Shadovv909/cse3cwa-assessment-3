@@ -28,13 +28,14 @@ export default function HomePage() {
       <section className="hero-section">
         <div className="hero-copy">
           <span className="hero-kicker">
-            <span aria-hidden="true">●</span> Backend and database implementation
+            <span aria-hidden="true">●</span> Stored activities and live reporting
           </span>
           <h1>Build once, save it, edit it and use it again.</h1>
           <p>
             Phoneme Studio now combines the accessible Assessment 1 interface
             with Next.js API routes, input validation, SQLite persistence and
-            Docker execution for a reproducible classroom activity workflow.
+            Docker support. The Assessment 3 dashboard adds database-backed usage reports,
+            generation outcomes and operational warnings.
           </p>
           <div className="hero-actions">
             <Link className="button button--primary" href="/library">
@@ -43,6 +44,7 @@ export default function HomePage() {
             <Link className="button button--secondary" href="/health">
               Check backend health
             </Link>
+            <Link className="button button--secondary" href="/dashboard">Open dashboard</Link>
           </div>
           <dl className="hero-stats">
             <div>

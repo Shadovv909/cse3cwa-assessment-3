@@ -35,7 +35,7 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="site-header__inner">
-        <Link className="brand-link" href="/" aria-label="Phoneme Studio home">
+        <Link className="brand-link" href="/">
           <span className="brand-mark" aria-hidden="true">
             /æ/
           </span>

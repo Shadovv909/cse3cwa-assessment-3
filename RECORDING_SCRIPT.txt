@@ -1,0 +1,26 @@
+CSE3CWA ASSESSMENT 3 VIDEO WALKTHROUGH
+Jacob Fenollar, student ID 22421357
+Target length: about 3 minutes. Keep your face visible and record your own voice. Show the live application and real evidence files, not a sequence of screenshots. Recheck the paths after extracting the ZIP.
+
+0:00 to 0:20 | Face, ID and home page
+"Hi, I am Jacob Fenollar, student ID 22421357. This is my CSE3CWA Assessment 3. Phoneme Studio builds Wordle and Word Search activities for speech pathology teaching. It continues my Assessment 1 interface and Assessment 2 backend, database and Docker project."
+
+0:20 to 0:50 | Dashboard
+Open Dashboard. "These cards come from SQLite. The first two count the Wordle and Word Search configurations currently stored. Other cards show successful and failed server exports, the most-used type, average visible page time, and the number of stored words. The health panel checks the database. Empty lists and failed exports create visible warnings. I can switch between observed usage and clearly labelled simulated sample records. The sample records are kept separate from real usage."
+
+0:50 to 1:20 | Data Library and generated activity
+Open Data Library. "Here are phoneme word lists. Each complete phoneme occupies its own saved position. I can create a list, add a word, update or delete records, and save settings such as activity type, difficulty, hints and output. I will open this stored Wordle and download its HTML file. The generated activity is self-contained and playable. Word Search uses the same saved-data workflow. Each server download records a generation event for the dashboard."
+
+1:20 to 1:42 | Reports and health
+Open Reports, then /health. "The report groups export outcomes by date and page visits by page. It can download a CSV. Average time comes from completed visible page segments, so it is an estimate, not a unique-user count. The /health endpoint returns HTTP 200 and shows the SQLite connection."
+
+1:42 to 2:14 | Tests and load evidence
+Open evidence/playwright/results.json or the Playwright HTML report and the JMeter summary. "All five Playwright browser tests passed. They cover saved-list CRUD with reload, both generated activity types, the dashboard and page timing. JMeter ran five stages from 1 to 10,000 total journeys with up to 20 concurrent threads. The largest stage made 100,000 HTTP requests with zero HTTP errors, a 61 millisecond mean and a 108 millisecond 95th percentile. These are local measurements, not 10,000 simultaneous users."
+
+2:14 to 2:40 | Lighthouse accessibility
+Open the final Lighthouse dashboard and Data Library HTML reports. "Lighthouse measured the accessibility scores shown here. Its detailed checks also found visible-label mismatches on the home link and phoneme controls, so I corrected their accessible names. I also made the saved description field's label explicit after a browser test found it was unstable. These changes improve the control names even where the numerical score was already high."
+
+2:40 to 3:00 | GitHub and close
+Open https://github.com/Shadovv909/cse3cwa-assessment-3 and its Commits page. "This is the public repository and its commit history, including the earlier assessments and this Assessment 3 update. The submission ZIP contains the source, tests, load plans and measured results, accessibility reports, editable report and this script. Thank you."
+
+Before recording: confirm the latest GitHub commit is visible, check the final Lighthouse scores in evidence/VERIFICATION.md, and show those measured numbers instead if they differ from any line above. Record the required face, voice and ID throughout the introduction. The student must make and review the final video and check the similarity submission result.

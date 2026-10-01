@@ -1,0 +1,57 @@
+[
+  {
+    "journeys": 1,
+    "threads": 1,
+    "requests": 10,
+    "errors": 0,
+    "meanMs": 813.8,
+    "p95Ms": 8083,
+    "maxMs": 8083,
+    "requestsPerSecond": 1.23,
+    "durationSeconds": 8.16
+  },
+  {
+    "journeys": 10,
+    "threads": 2,
+    "requests": 100,
+    "errors": 0,
+    "meanMs": 156.56,
+    "p95Ms": 8,
+    "maxMs": 8041,
+    "requestsPerSecond": 11.99,
+    "durationSeconds": 8.337
+  },
+  {
+    "journeys": 100,
+    "threads": 5,
+    "requests": 1000,
+    "errors": 0,
+    "meanMs": 46.43,
+    "p95Ms": 15,
+    "maxMs": 8043,
+    "requestsPerSecond": 99.01,
+    "durationSeconds": 10.1
+  },
+  {
+    "journeys": 1000,
+    "threads": 10,
+    "requests": 10000,
+    "errors": 0,
+    "meanMs": 27.11,
+    "p95Ms": 28,
+    "maxMs": 8039,
+    "requestsPerSecond": 355.91,
+    "durationSeconds": 28.097
+  },
+  {
+    "journeys": 10000,
+    "threads": 20,
+    "requests": 100000,
+    "errors": 0,
+    "meanMs": 61.13,
+    "p95Ms": 108,
+    "maxMs": 8047,
+    "requestsPerSecond": 325.67,
+    "durationSeconds": 307.055
+  }
+]

@@ -13,3 +13,7 @@
 .DS_Store
 Thumbs.db
 *.tsbuildinfo
+
+evidence/playwright/html/
+test-results/
+evidence/*/*.log

@@ -332,11 +332,11 @@ export function WordleBuilder({
                     role="listitem"
                     key={`${phoneme}-${index}`}
                     title={`Remove ${getPhonemeHint(phoneme)}`}
-                    aria-label={`Remove ${formatPhoneme(phoneme)} from position ${index + 1}`}
                     onClick={() => removePhoneme(index)}
                   >
                     <span>{formatPhoneme(phoneme)}</span>
                     <small aria-hidden="true">×</small>
+                    <span className="sr-only">Remove from position {index + 1}</span>
                   </button>
                 ))
               ) : (

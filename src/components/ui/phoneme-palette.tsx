@@ -31,11 +31,11 @@ export function PhonemePalette({
                   disabled={disabled}
                   title={getPhonemeHint(option.symbol)}
                   data-hint={getPhonemeHint(option.symbol)}
-                  aria-label={`Add ${getPhonemeHint(option.symbol)}`}
                   onClick={() => onSelect(option.symbol)}
                 >
                   <span>{formatPhoneme(option.symbol)}</span>
                   <small>{option.label}</small>
+                  <span className="sr-only">Add {getPhonemeHint(option.symbol)}</span>
                 </button>
               ))}
           </div>

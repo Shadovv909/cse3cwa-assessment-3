@@ -1,0 +1,12 @@
+{
+  "status": 200,
+  "body": {
+    "status": "ok",
+    "service": "phoneme-studio-backend",
+    "database": "connected",
+    "timestamp": "2026-09-28T12:58:52.408Z",
+    "responseTimeMs": 0.09,
+    "wordLists": 2,
+    "activities": 2
+  }
+}

@@ -406,9 +406,9 @@ export function ActivityLibrary() {
                 <input className="text-input" value={selectedList?.id || "New record"} readOnly />
               </label>
             </div>
-            <label className="form-field form-field--spaced">
-              <span>Description</span>
-              <textarea className="text-area" value={listDescription} maxLength={400} onChange={(event) => setListDescription(event.target.value)} />
+            <label className="form-field form-field--spaced" htmlFor="list-description">
+              <span id="list-description-label">Description</span>
+              <textarea id="list-description" aria-labelledby="list-description-label" className="text-area" value={listDescription} maxLength={400} onChange={(event) => setListDescription(event.target.value)} />
             </label>
             <div className="inline-actions">
               {selectedList ? (

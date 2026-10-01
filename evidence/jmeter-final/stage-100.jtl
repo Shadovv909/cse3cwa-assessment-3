@@ -1,0 +1,1001 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1790599913775,6909,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,6909,0,6894
+1790599912639,8043,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8043,0,8030
+1790599912978,7702,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,7699,0,7691
+1790599914176,6504,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,6503,0,6493
+1790599913377,7303,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,7300,0,7292
+1790599920700,3,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/04b5b43e-4d45-4224-ab9b-b47e996baf7f,3,0,0
+1790599920700,4,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/3b55b223-a111-4cca-ae37-f8d03619e3b5,4,0,0
+1790599920700,6,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/10e2c6db-8d96-4754-b476-570392d3f760,6,0,0
+1790599920700,8,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/bba86fce-9db1-4ceb-a6cc-96fb9d6042c8,8,0,0
+1790599920701,9,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/913a6e1a-6cd3-4a8e-9a2f-55cfa8536ecb,9,0,0
+1790599920703,10,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/04b5b43e-4d45-4224-ab9b-b47e996baf7f,10,0,0
+1790599920704,11,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/3b55b223-a111-4cca-ae37-f8d03619e3b5,11,0,0
+1790599920706,12,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/10e2c6db-8d96-4754-b476-570392d3f760,12,0,0
+1790599920708,13,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/bba86fce-9db1-4ceb-a6cc-96fb9d6042c8,13,0,0
+1790599920710,14,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/913a6e1a-6cd3-4a8e-9a2f-55cfa8536ecb,14,0,0
+1790599920713,14,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,14,0,0
+1790599920716,14,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,14,0,0
+1790599920718,14,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,14,0,0
+1790599920722,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599920725,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599920728,13,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/b8f5184d-e862-4d3a-8912-6ea1259b849f/export,13,0,0
+1790599920730,14,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/8fb467fb-19ba-4b47-8609-d88287464e5f/export,14,0,0
+1790599920733,14,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/7b5588b8-ac8f-4b42-97ce-b4558b67777c/export,14,0,0
+1790599920735,15,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/81fc764b-c6b9-420f-9b0e-ae439d03b55a/export,15,0,0
+1790599920739,14,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/c687508a-cfe4-496a-b5be-0ba4609875ab/export,14,0,0
+1790599920741,15,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,15,0,0
+1790599920744,15,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,15,0,0
+1790599920748,14,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,14,0,0
+1790599920750,14,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,14,0,0
+1790599920753,15,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,15,0,0
+1790599920756,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16740,228,5,5,http://127.0.0.1:3200/api/activities/037d342f-223d-4f10-b8dd-e64d403f71f4/export,15,0,0
+1790599920759,16,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16755,228,5,5,http://127.0.0.1:3200/api/activities/6fce8885-395d-4964-b33f-0edb01f0b6de/export,16,0,0
+1790599920762,16,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16762,228,5,5,http://127.0.0.1:3200/api/activities/cd307d57-47ff-4382-8ec1-c8a71d090d63/export,16,0,0
+1790599920765,17,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16719,228,5,5,http://127.0.0.1:3200/api/activities/f0a85d9f-64a2-4fcc-9f7e-19376fd03c96/export,17,0,0
+1790599920768,17,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16732,228,5,5,http://127.0.0.1:3200/api/activities/8f59651a-c76d-4ced-8896-22df2bb7c8cb/export,17,0,0
+1790599920772,15,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4063,181,5,5,http://127.0.0.1:3200/api/metrics,15,0,0
+1790599920775,14,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4063,181,5,5,http://127.0.0.1:3200/api/metrics,14,0,0
+1790599920778,12,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4063,181,5,5,http://127.0.0.1:3200/api/metrics,12,0,0
+1790599920782,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4063,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599920786,8,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4063,181,5,5,http://127.0.0.1:3200/api/metrics,8,0,0
+1790599920787,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/04b5b43e-4d45-4224-ab9b-b47e996baf7f,0,0,0
+1790599920789,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/3b55b223-a111-4cca-ae37-f8d03619e3b5,0,0,0
+1790599920791,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/10e2c6db-8d96-4754-b476-570392d3f760,0,0,0
+1790599920792,11,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/bba86fce-9db1-4ceb-a6cc-96fb9d6042c8,0,0,0
+1790599920794,11,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/913a6e1a-6cd3-4a8e-9a2f-55cfa8536ecb,0,0,0
+1790599920797,9,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,9,0,0
+1790599920799,8,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,8,0,0
+1790599920801,7,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599920803,7,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,448,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599920805,6,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599920806,8,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599920807,9,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,9,0,0
+1790599920809,10,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,10,0,0
+1790599920810,11,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599920811,13,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,13,0,0
+1790599920814,11,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/2e0ff3fe-2a66-4a06-bb66-4443c5e68e7b,11,0,0
+1790599920817,10,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/b2ba7d67-4706-44f7-a53d-59aad3bfc4ae,10,0,0
+1790599920819,9,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/17983fba-347f-4a13-b6cc-e099feb66b87,9,0,0
+1790599920822,7,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/e944011f-b38a-46e3-a7d2-787539848f39,7,0,0
+1790599920824,7,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/160d7cee-9d72-4145-9872-aeeb70d83e4a,7,0,0
+1790599920825,8,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/2e0ff3fe-2a66-4a06-bb66-4443c5e68e7b,8,0,0
+1790599920827,8,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/b2ba7d67-4706-44f7-a53d-59aad3bfc4ae,8,0,0
+1790599920828,10,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/17983fba-347f-4a13-b6cc-e099feb66b87,10,0,0
+1790599920830,10,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/e944011f-b38a-46e3-a7d2-787539848f39,10,0,0
+1790599920831,12,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/160d7cee-9d72-4145-9872-aeeb70d83e4a,12,0,0
+1790599920833,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599920836,14,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,14,0,0
+1790599920838,14,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,14,0,0
+1790599920841,14,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,14,0,0
+1790599920843,17,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,17,0,0
+1790599920847,16,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/8ae1b872-ed69-4cee-a348-c3b1f3326953/export,16,0,0
+1790599920850,15,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/6f22be75-e8cb-4f9c-beb9-1d1827daac21/export,15,0,0
+1790599920853,15,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/8532878c-e87f-44ab-88ea-39f2d2846a0d/export,15,0,0
+1790599920855,15,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/f1ddc37d-ab0c-44bf-99a6-60087dec5827/export,15,0,0
+1790599920861,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/9bdcaa45-6b25-4521-8ae9-17fc91a56b0e/export,12,0,0
+1790599920863,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599920866,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599920868,14,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,14,0,0
+1790599920871,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599920874,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599920877,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16720,228,5,5,http://127.0.0.1:3200/api/activities/9d48addb-485c-4ce0-98e9-09cd3cbc361d/export,15,0,0
+1790599920880,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16775,228,5,5,http://127.0.0.1:3200/api/activities/3507fe38-e814-4301-8a8e-1b9c477be163/export,15,0,0
+1790599920882,17,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16729,228,5,5,http://127.0.0.1:3200/api/activities/9074b8a3-58fa-4bf5-ba60-36c61d2a58b6/export,16,0,0
+1790599920885,17,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16720,228,5,5,http://127.0.0.1:3200/api/activities/cbe6b22c-d956-4757-afda-5afa932028a8/export,17,0,0
+1790599920887,19,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16761,228,5,5,http://127.0.0.1:3200/api/activities/e9cc5701-fe5a-4112-8880-e42f6d15b576/export,19,0,0
+1790599920892,16,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,16,0,0
+1790599920896,13,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,13,0,0
+1790599920899,11,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,11,0,0
+1790599920902,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599920906,7,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,7,0,0
+1790599920908,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/2e0ff3fe-2a66-4a06-bb66-4443c5e68e7b,0,0,0
+1790599920909,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/b2ba7d67-4706-44f7-a53d-59aad3bfc4ae,0,0,0
+1790599920910,10,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/17983fba-347f-4a13-b6cc-e099feb66b87,0,0,0
+1790599920912,10,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/e944011f-b38a-46e3-a7d2-787539848f39,0,0,0
+1790599920914,10,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/160d7cee-9d72-4145-9872-aeeb70d83e4a,0,0,0
+1790599920916,9,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,9,0,0
+1790599920918,8,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,8,0,0
+1790599920920,7,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599920922,7,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599920924,6,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599920925,8,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599920927,8,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599920928,10,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,10,0,0
+1790599920929,12,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,12,0,0
+1790599920930,13,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,13,0,0
+1790599920933,12,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/3022879f-d9ee-4cbf-bb8a-d10740bfc48b,12,0,0
+1790599920936,10,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/81f50c24-2d51-4856-8121-02b8ba06e504,10,0,0
+1790599920938,9,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/6827a06e-4de7-490c-b038-74c1c0d8b3eb,9,0,0
+1790599920941,7,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/04434e02-29f6-44e7-89ec-887d10626e51,7,0,0
+1790599920944,6,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/8dffd7f2-bf3b-49be-8e85-3d4de2ce900b,6,0,0
+1790599920945,7,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/3022879f-d9ee-4cbf-bb8a-d10740bfc48b,7,0,0
+1790599920946,9,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/81f50c24-2d51-4856-8121-02b8ba06e504,9,0,0
+1790599920947,10,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/6827a06e-4de7-490c-b038-74c1c0d8b3eb,10,0,0
+1790599920948,12,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/04434e02-29f6-44e7-89ec-887d10626e51,12,0,0
+1790599920950,12,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/8dffd7f2-bf3b-49be-8e85-3d4de2ce900b,12,0,0
+1790599920953,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599920955,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599920957,14,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,14,0,0
+1790599920960,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599920963,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599920965,15,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/45c43958-4782-4462-a3a4-d4c2bca592a1/export,14,0,0
+1790599920968,15,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/8b695d43-6b78-4acb-8a06-31da0fd1f1f4/export,15,0,0
+1790599920971,14,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/2903c1f6-2979-4a4f-aaf6-7c476a8ceb80/export,14,0,0
+1790599920974,14,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/38d2d8e0-5347-4583-b1f4-b72ffef1369e/export,14,0,0
+1790599920976,14,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/8b1649b4-cdfb-4515-a21d-9ed7ce61d72f/export,14,0,0
+1790599920980,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599920983,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599920986,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599920988,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599920990,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599920993,20,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16698,228,5,5,http://127.0.0.1:3200/api/activities/27329aea-dfb5-4f4d-8659-c69fc1bc0690/export,20,0,0
+1790599920995,21,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16717,228,5,5,http://127.0.0.1:3200/api/activities/3f3d3237-fc5b-4383-a9fd-9e057b262270/export,21,0,0
+1790599920998,21,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16752,228,5,5,http://127.0.0.1:3200/api/activities/c879abdf-ca21-4cac-8ab0-966e3d605051/export,21,0,0
+1790599921000,23,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16756,228,5,5,http://127.0.0.1:3200/api/activities/c06ed21f-c2a5-4076-951f-c092725bb6b5/export,23,0,0
+1790599921003,24,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16731,228,5,5,http://127.0.0.1:3200/api/activities/8d9eee39-1604-465e-8eb1-89a8ce4a32cc/export,24,0,0
+1790599921013,15,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4057,181,5,5,http://127.0.0.1:3200/api/metrics,15,0,0
+1790599921016,14,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4057,181,5,5,http://127.0.0.1:3200/api/metrics,14,0,0
+1790599921020,11,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4057,181,5,5,http://127.0.0.1:3200/api/metrics,11,0,0
+1790599921023,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4057,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599921027,7,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4057,181,5,5,http://127.0.0.1:3200/api/metrics,7,0,0
+1790599921028,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/3022879f-d9ee-4cbf-bb8a-d10740bfc48b,0,0,0
+1790599921030,11,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/81f50c24-2d51-4856-8121-02b8ba06e504,0,0,0
+1790599921031,13,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/6827a06e-4de7-490c-b038-74c1c0d8b3eb,0,0,0
+1790599921033,14,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/04434e02-29f6-44e7-89ec-887d10626e51,0,0,0
+1790599921034,15,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/8dffd7f2-bf3b-49be-8e85-3d4de2ce900b,0,0,0
+1790599921037,13,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,13,0,0
+1790599921041,10,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,10,0,0
+1790599921045,7,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599921047,7,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599921049,6,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599921051,7,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,7,0,0
+1790599921052,8,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599921053,11,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599921054,12,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,12,0,0
+1790599921056,13,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,13,0,0
+1790599921058,12,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/aa1bef94-0b6b-4da1-84d0-8d60190578a9,12,0,0
+1790599921061,10,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/7fe74aef-d580-4be4-8a44-c5b5584a8fd8,10,0,0
+1790599921064,8,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/090c3e19-71b3-42bd-9701-0e4244eb425f,8,0,0
+1790599921067,7,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/76bf906c-0db2-4b01-9da6-a819b58ea280,7,0,0
+1790599921069,6,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/4b9e76e5-e0ed-4703-a3fc-26bd1e337a38,6,0,0
+1790599921070,7,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/aa1bef94-0b6b-4da1-84d0-8d60190578a9,7,0,0
+1790599921071,10,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/7fe74aef-d580-4be4-8a44-c5b5584a8fd8,10,0,0
+1790599921073,10,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/090c3e19-71b3-42bd-9701-0e4244eb425f,10,0,0
+1790599921074,11,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/76bf906c-0db2-4b01-9da6-a819b58ea280,11,0,0
+1790599921075,12,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/4b9e76e5-e0ed-4703-a3fc-26bd1e337a38,12,0,0
+1790599921077,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921081,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921083,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921085,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921088,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921090,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/2136564e-b86f-4500-a0ae-bad9928ee340/export,12,0,0
+1790599921092,13,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/3d18a6f7-855f-44ab-b392-75bd232920de/export,13,0,0
+1790599921095,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/10205005-0279-4002-90bc-07f69c96582e/export,12,0,0
+1790599921097,13,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/c69bcc37-7983-4928-9249-a55d665825ad/export,13,0,0
+1790599921100,13,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/3d3f5643-57af-47c8-a17c-5290eafabfa3/export,13,0,0
+1790599921102,14,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,14,0,0
+1790599921105,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921107,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921110,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921113,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921116,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16742,228,5,5,http://127.0.0.1:3200/api/activities/0b9ef19d-f727-4f11-8cca-16c023d3cda2/export,13,0,0
+1790599921118,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16784,228,5,5,http://127.0.0.1:3200/api/activities/caa5f205-2acf-4411-ba1d-acaf9638cbce/export,15,0,0
+1790599921121,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16776,228,5,5,http://127.0.0.1:3200/api/activities/ff83a06a-ceba-402b-88b4-8ee0a0626336/export,15,0,0
+1790599921123,16,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16752,228,5,5,http://127.0.0.1:3200/api/activities/cc4ead88-9260-4701-b9d5-8b95f5eb08d3/export,16,0,0
+1790599921126,17,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16719,228,5,5,http://127.0.0.1:3200/api/activities/501c14fb-4572-43d9-8ff0-5f4394f311bf/export,17,0,0
+1790599921129,15,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4056,181,5,5,http://127.0.0.1:3200/api/metrics,15,0,0
+1790599921134,11,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4056,181,5,5,http://127.0.0.1:3200/api/metrics,11,0,0
+1790599921137,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4056,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599921140,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4056,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599921143,7,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4056,181,5,5,http://127.0.0.1:3200/api/metrics,7,0,0
+1790599921144,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/aa1bef94-0b6b-4da1-84d0-8d60190578a9,0,0,0
+1790599921145,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/7fe74aef-d580-4be4-8a44-c5b5584a8fd8,0,0,0
+1790599921147,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/090c3e19-71b3-42bd-9701-0e4244eb425f,0,0,0
+1790599921149,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/76bf906c-0db2-4b01-9da6-a819b58ea280,0,0,0
+1790599921150,10,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/4b9e76e5-e0ed-4703-a3fc-26bd1e337a38,0,0,0
+1790599921152,9,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,9,0,0
+1790599921154,8,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,8,0,0
+1790599921157,6,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599921159,5,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599921160,6,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599921161,7,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,7,0,0
+1790599921162,9,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599921163,10,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,10,0,0
+1790599921165,11,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599921166,13,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,13,0,0
+1790599921169,11,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/8473ac63-806b-4c99-b17c-5c45d19eb027,11,0,0
+1790599921171,10,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/13fe2bf8-f57a-4691-9d40-8bb876fc5de7,10,0,0
+1790599921174,9,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/69bb053a-a888-4bd4-9b4d-a57e9b866e67,9,0,0
+1790599921176,8,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/85127375-fdb7-4ca9-873d-6307efa02f05,8,0,0
+1790599921179,6,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/912e0dcb-baa4-45ff-87b7-2bae08ca1eba,6,0,0
+1790599921180,7,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/8473ac63-806b-4c99-b17c-5c45d19eb027,7,0,0
+1790599921181,9,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/13fe2bf8-f57a-4691-9d40-8bb876fc5de7,9,0,0
+1790599921183,9,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/69bb053a-a888-4bd4-9b4d-a57e9b866e67,9,0,0
+1790599921184,10,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/85127375-fdb7-4ca9-873d-6307efa02f05,10,0,0
+1790599921185,12,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/912e0dcb-baa4-45ff-87b7-2bae08ca1eba,12,0,0
+1790599921187,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921190,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921192,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921195,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921197,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921199,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/06e87697-57a7-425c-b4ab-b5a3ff1e58d8/export,12,0,0
+1790599921202,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/21296ef9-5564-45b5-8318-3aba31233d13/export,12,0,0
+1790599921204,13,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/37d7a96a-3bd0-46a2-bc40-f2b2c96c0624/export,13,0,0
+1790599921207,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/a53dca0c-acdb-44d1-9cb1-90c7384bc4a8/export,12,0,0
+1790599921209,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/de101e23-9658-4d48-bccd-d4ff71b398cc/export,12,0,0
+1790599921212,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921214,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921217,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921219,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921222,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921225,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16686,228,5,5,http://127.0.0.1:3200/api/activities/66252e76-568f-41af-89ac-a6c210241a74/export,12,0,0
+1790599921227,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16707,228,5,5,http://127.0.0.1:3200/api/activities/06c86704-5bd0-48f8-b3c8-bc0bff37e22c/export,13,0,0
+1790599921230,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16713,228,5,5,http://127.0.0.1:3200/api/activities/ff456eba-e9c9-44ad-a673-ad6750869cd9/export,13,0,0
+1790599921232,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16769,228,5,5,http://127.0.0.1:3200/api/activities/0e87f732-1419-4ace-942d-aa09a200b2d9/export,14,0,0
+1790599921234,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16738,228,5,5,http://127.0.0.1:3200/api/activities/a1cf6c41-dcb4-4eb4-9754-c8bcd9d13d5f/export,15,0,0
+1790599921237,13,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,13,0,0
+1790599921241,11,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,11,0,0
+1790599921244,11,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,11,0,0
+1790599921246,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599921249,8,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,8,0,0
+1790599921251,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/8473ac63-806b-4c99-b17c-5c45d19eb027,0,0,0
+1790599921252,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/13fe2bf8-f57a-4691-9d40-8bb876fc5de7,0,0,0
+1790599921255,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/69bb053a-a888-4bd4-9b4d-a57e9b866e67,0,0,0
+1790599921256,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/85127375-fdb7-4ca9-873d-6307efa02f05,0,0,0
+1790599921257,10,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/912e0dcb-baa4-45ff-87b7-2bae08ca1eba,0,0,0
+1790599921259,9,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,9,0,0
+1790599921261,8,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,8,0,0
+1790599921263,6,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599921265,6,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599921267,5,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599921268,6,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,6,0,0
+1790599921269,8,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599921270,9,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,9,0,0
+1790599921271,11,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599921272,12,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,12,0,0
+1790599921274,12,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/aaae34e7-cc30-4a5f-8438-0277d5051ee9,12,0,0
+1790599921277,10,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/da6a9e47-72b1-4ee0-aef9-00baaeffee4b,10,0,0
+1790599921279,9,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/0db99459-c1a3-4772-af0c-f57d52a09e38,9,0,0
+1790599921282,7,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/8887642a-19f2-4ff3-971e-3b365511a9e8,7,0,0
+1790599921285,5,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/7c0c171b-62eb-4d7e-9f63-913ab9262a73,5,0,0
+1790599921286,7,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/aaae34e7-cc30-4a5f-8438-0277d5051ee9,7,0,0
+1790599921287,8,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/da6a9e47-72b1-4ee0-aef9-00baaeffee4b,8,0,0
+1790599921288,9,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/0db99459-c1a3-4772-af0c-f57d52a09e38,9,0,0
+1790599921289,11,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/8887642a-19f2-4ff3-971e-3b365511a9e8,11,0,0
+1790599921290,12,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/7c0c171b-62eb-4d7e-9f63-913ab9262a73,12,0,0
+1790599921293,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921295,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921297,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921300,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921302,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921305,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/791cc604-caab-4a27-acd3-6b8d7ac23021/export,11,0,0
+1790599921307,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/47ec6abd-35d4-4bd7-82cb-4582fb67a502/export,12,0,0
+1790599921309,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/c3e1e8e4-bb4a-4f4e-a2aa-58111071b763/export,12,0,0
+1790599921312,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/38e967b1-095c-429e-891d-f1a184b73ddc/export,11,0,0
+1790599921314,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/a0404ed2-237f-4f5b-9f74-f350b90c39f0/export,11,0,0
+1790599921316,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921319,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921321,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921323,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921326,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921328,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16784,228,5,5,http://127.0.0.1:3200/api/activities/0ca57f7a-3bb2-4071-b117-c16364529e28/export,13,0,0
+1790599921331,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16800,228,5,5,http://127.0.0.1:3200/api/activities/42c47a60-e4dd-49b9-8708-0a9ab100ef4f/export,13,0,0
+1790599921334,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16754,228,5,5,http://127.0.0.1:3200/api/activities/438cac05-1739-4f2b-940d-cdefd612c4c7/export,13,0,0
+1790599921336,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16709,228,5,5,http://127.0.0.1:3200/api/activities/e8f77c02-1713-4b72-978c-97cb52670180/export,14,0,0
+1790599921339,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16728,228,5,5,http://127.0.0.1:3200/api/activities/d84a4798-b84f-495d-acd7-2b35cc370c7c/export,14,0,0
+1790599921342,12,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4064,181,5,5,http://127.0.0.1:3200/api/metrics,12,0,0
+1790599921344,12,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4064,181,5,5,http://127.0.0.1:3200/api/metrics,12,0,0
+1790599921347,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4064,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599921350,8,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4064,181,5,5,http://127.0.0.1:3200/api/metrics,8,0,0
+1790599921353,6,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4064,181,5,5,http://127.0.0.1:3200/api/metrics,6,0,0
+1790599921355,6,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/aaae34e7-cc30-4a5f-8438-0277d5051ee9,0,0,0
+1790599921356,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/da6a9e47-72b1-4ee0-aef9-00baaeffee4b,0,0,0
+1790599921357,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/0db99459-c1a3-4772-af0c-f57d52a09e38,0,0,0
+1790599921358,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/8887642a-19f2-4ff3-971e-3b365511a9e8,0,0,0
+1790599921359,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/7c0c171b-62eb-4d7e-9f63-913ab9262a73,0,0,0
+1790599921361,8,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,8,0,0
+1790599921363,7,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599921364,7,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599921366,6,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599921368,5,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599921370,5,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,5,0,0
+1790599921371,7,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,7,0,0
+1790599921372,8,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599921372,11,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599921373,12,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,12,0,0
+1790599921376,10,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/a5ce0fb6-b99d-4dd6-9bdd-7deda0ff78f4,10,0,0
+1790599921378,9,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/1518e556-ed61-4dfe-a7f2-0117520418ce,9,0,0
+1790599921381,7,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/3d2365a2-81c7-4670-a214-a780fb7879be,7,0,0
+1790599921383,6,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/6c34ff80-b260-4889-b351-cea1630bc9e3,6,0,0
+1790599921385,5,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/8f4101d7-786c-4701-9361-138660d0c3d6,5,0,0
+1790599921386,6,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/a5ce0fb6-b99d-4dd6-9bdd-7deda0ff78f4,6,0,0
+1790599921387,7,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/1518e556-ed61-4dfe-a7f2-0117520418ce,7,0,0
+1790599921389,7,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/3d2365a2-81c7-4670-a214-a780fb7879be,7,0,0
+1790599921389,9,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/6c34ff80-b260-4889-b351-cea1630bc9e3,9,0,0
+1790599921390,10,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/8f4101d7-786c-4701-9361-138660d0c3d6,10,0,0
+1790599921392,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599921395,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599921396,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921398,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921401,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599921403,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/fc3dd77e-f5a5-4034-90a3-2cf7a41c24fb/export,11,0,0
+1790599921405,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/9293e2d3-9fe5-44cb-b6fb-2bb46467aeca/export,11,0,0
+1790599921407,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/734a29be-ce9c-42b1-a8ec-59de385e7e95/export,11,0,0
+1790599921409,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/cbcdf6f1-df76-4112-98bd-c79e51bc66fe/export,12,0,0
+1790599921412,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/6f8ec8fa-f0a3-4f52-aeae-293ca6d90f6d/export,11,0,0
+1790599921414,14,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,14,0,0
+1790599921416,15,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,15,0,0
+1790599921418,16,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,16,0,0
+1790599921421,15,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,15,0,0
+1790599921424,15,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,15,0,0
+1790599921428,16,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16712,228,5,5,http://127.0.0.1:3200/api/activities/27e4be80-708c-47e9-89b1-7aa3a20e309c/export,16,0,0
+1790599921432,16,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16762,228,5,5,http://127.0.0.1:3200/api/activities/6fc870a7-d58c-4741-93cd-19eba607b834/export,16,0,0
+1790599921434,18,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16734,228,5,5,http://127.0.0.1:3200/api/activities/d1e895b8-9975-4d0e-a267-91e8977feeb0/export,18,0,0
+1790599921436,21,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16739,228,5,5,http://127.0.0.1:3200/api/activities/c8e6ce0a-6ab1-428c-8227-c46198d20a5f/export,21,0,0
+1790599921439,25,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16729,228,5,5,http://127.0.0.1:3200/api/activities/a66b7202-7f14-49dc-8879-feeb6275ac38/export,24,0,0
+1790599921444,21,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,21,0,0
+1790599921448,18,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,18,0,0
+1790599921452,15,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,15,0,0
+1790599921457,11,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,11,0,0
+1790599921464,6,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4059,181,5,5,http://127.0.0.1:3200/api/metrics,6,0,0
+1790599921465,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/a5ce0fb6-b99d-4dd6-9bdd-7deda0ff78f4,0,0,0
+1790599921466,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/1518e556-ed61-4dfe-a7f2-0117520418ce,0,0,0
+1790599921467,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/3d2365a2-81c7-4670-a214-a780fb7879be,0,0,0
+1790599921469,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/6c34ff80-b260-4889-b351-cea1630bc9e3,0,0,0
+1790599921470,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/8f4101d7-786c-4701-9361-138660d0c3d6,0,0,0
+1790599921472,8,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,8,0,0
+1790599921474,7,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599921476,6,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599921478,5,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599921480,4,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,4,0,0
+1790599921480,7,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,6,0,0
+1790599921481,8,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599921482,9,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,9,0,0
+1790599921483,10,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,10,0,0
+1790599921484,11,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599921487,9,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/68ca3268-88aa-496a-993f-965dc8671ac4,9,0,0
+1790599921489,8,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/541daca8-6549-4d09-9397-19870501ff93,8,0,0
+1790599921491,8,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/bb9574dc-a759-4550-b487-7d01b75a6d43,8,0,0
+1790599921493,7,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/f4ec2867-44ab-4cb9-99c3-acdd64ff61da,7,0,0
+1790599921496,5,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/7c4c7106-4257-48dc-807e-2253784ccc0d,5,0,0
+1790599921497,7,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/68ca3268-88aa-496a-993f-965dc8671ac4,7,0,0
+1790599921498,8,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/541daca8-6549-4d09-9397-19870501ff93,8,0,0
+1790599921499,10,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/bb9574dc-a759-4550-b487-7d01b75a6d43,10,0,0
+1790599921500,11,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/f4ec2867-44ab-4cb9-99c3-acdd64ff61da,11,0,0
+1790599921501,12,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/7c4c7106-4257-48dc-807e-2253784ccc0d,12,0,0
+1790599921504,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921507,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921509,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921511,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921514,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921516,13,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/009664e6-5da5-4646-8c80-b86a8566f920/export,13,0,0
+1790599921519,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/a9cd624b-96ee-4e3f-a50a-d7f9d781250c/export,12,0,0
+1790599921521,13,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/146d8468-ddb1-443e-983d-e4da82361481/export,13,0,0
+1790599921524,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/525e2209-8a94-4f2d-a87a-19d0cd797ad4/export,12,0,0
+1790599921526,13,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/c02fc907-1463-4fe6-932c-e35b303cb5af/export,13,0,0
+1790599921529,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921531,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921534,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921537,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921539,15,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,15,0,0
+1790599921542,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16745,228,5,5,http://127.0.0.1:3200/api/activities/dd968cf2-5378-44a1-8599-7dd2fe833ea3/export,15,0,0
+1790599921545,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16758,228,5,5,http://127.0.0.1:3200/api/activities/f9c3f44e-3b7f-4ae4-b9d9-635af761acf3/export,15,0,0
+1790599921547,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16759,228,5,5,http://127.0.0.1:3200/api/activities/3d8d03a5-d80e-4c83-bcfb-0c183367b997/export,15,0,0
+1790599921550,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16760,228,5,5,http://127.0.0.1:3200/api/activities/feee347e-85f3-4f7b-9f86-cc969348ec2f/export,15,0,0
+1790599921554,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16772,228,5,5,http://127.0.0.1:3200/api/activities/38d6b023-b107-4a03-8b46-e03846c6a49a/export,14,0,0
+1790599921557,14,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4057,181,5,5,http://127.0.0.1:3200/api/metrics,14,0,0
+1790599921560,12,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4057,181,5,5,http://127.0.0.1:3200/api/metrics,12,0,0
+1790599921563,11,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4057,181,5,5,http://127.0.0.1:3200/api/metrics,11,0,0
+1790599921566,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4057,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599921568,8,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4057,181,5,5,http://127.0.0.1:3200/api/metrics,8,0,0
+1790599921571,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/68ca3268-88aa-496a-993f-965dc8671ac4,0,0,0
+1790599921573,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/541daca8-6549-4d09-9397-19870501ff93,0,0,0
+1790599921574,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/bb9574dc-a759-4550-b487-7d01b75a6d43,0,0,0
+1790599921575,10,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/f4ec2867-44ab-4cb9-99c3-acdd64ff61da,0,0,0
+1790599921576,11,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/7c4c7106-4257-48dc-807e-2253784ccc0d,0,0,0
+1790599921579,10,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,10,0,0
+1790599921581,9,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,448,176,5,5,http://127.0.0.1:3200/health,9,0,0
+1790599921583,8,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,8,0,0
+1790599921585,6,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599921587,7,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599921589,10,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,10,0,0
+1790599921590,13,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,13,0,0
+1790599921591,15,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,15,0,0
+1790599921592,16,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,16,0,0
+1790599921594,16,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,16,0,0
+1790599921600,12,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/a742fabf-af51-43c1-b3f4-9e1fe4d3fa28,12,0,0
+1790599921604,9,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/67505fb5-5834-4ffa-9ff8-9252e984ae80,9,0,0
+1790599921606,9,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/facf344c-c670-45ef-b86e-cb5810c4be20,9,0,0
+1790599921608,8,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/bd7f1403-ea21-46ac-8401-9c58d236bfb6,8,0,0
+1790599921611,6,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/18d22ec5-3f48-497d-9e18-1097136bb6fd,6,0,0
+1790599921612,8,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/a742fabf-af51-43c1-b3f4-9e1fe4d3fa28,7,0,0
+1790599921613,9,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/67505fb5-5834-4ffa-9ff8-9252e984ae80,9,0,0
+1790599921615,9,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/facf344c-c670-45ef-b86e-cb5810c4be20,9,0,0
+1790599921616,10,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/bd7f1403-ea21-46ac-8401-9c58d236bfb6,10,0,0
+1790599921617,12,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/18d22ec5-3f48-497d-9e18-1097136bb6fd,12,0,0
+1790599921620,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921622,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921624,14,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921627,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921629,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921634,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/0f07758f-8ee6-4e74-a5ce-43a81ae8de5e/export,11,0,0
+1790599921636,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/2cfb1325-5af8-4150-9ad0-ef089981a37b/export,11,0,0
+1790599921638,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/3552a656-5b32-4b97-ae14-df0cf2139ac3/export,11,0,0
+1790599921640,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/358fcf66-b538-4cb9-91c4-5da3d14af6f0/export,11,0,0
+1790599921643,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/730a3483-a3b1-4fce-8db2-a66b96e13323/export,10,0,0
+1790599921645,10,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599921647,10,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599921649,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921651,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921653,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921656,10,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16758,228,5,5,http://127.0.0.1:3200/api/activities/d6d4a45d-d8d4-4fae-84e7-3c6e215f46cc/export,10,0,0
+1790599921658,11,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16733,228,5,5,http://127.0.0.1:3200/api/activities/95dcbd03-b404-4538-b31b-88f4fd8dcdc5/export,11,0,0
+1790599921660,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16717,228,5,5,http://127.0.0.1:3200/api/activities/1001dcdd-618e-4dd5-ac73-711c9afcafa0/export,12,0,0
+1790599921662,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16741,228,5,5,http://127.0.0.1:3200/api/activities/f086bffd-a55b-46fa-b093-291ff9991264/export,12,0,0
+1790599921664,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16727,228,5,5,http://127.0.0.1:3200/api/activities/46474d36-bfe8-44c7-8bb0-6f87dd5bbcc5/export,13,0,0
+1790599921666,12,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4062,181,5,5,http://127.0.0.1:3200/api/metrics,12,0,0
+1790599921669,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4062,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599921672,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4062,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599921675,8,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4062,181,5,5,http://127.0.0.1:3200/api/metrics,8,0,0
+1790599921677,7,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4062,181,5,5,http://127.0.0.1:3200/api/metrics,7,0,0
+1790599921678,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/a742fabf-af51-43c1-b3f4-9e1fe4d3fa28,0,0,0
+1790599921679,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/67505fb5-5834-4ffa-9ff8-9252e984ae80,0,0,0
+1790599921681,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/facf344c-c670-45ef-b86e-cb5810c4be20,0,0,0
+1790599921683,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/bd7f1403-ea21-46ac-8401-9c58d236bfb6,0,0,0
+1790599921684,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/18d22ec5-3f48-497d-9e18-1097136bb6fd,0,0,0
+1790599921686,8,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,8,0,0
+1790599921688,7,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599921690,5,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599921692,4,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,4,0,0
+1790599921693,5,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599921694,6,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,6,0,0
+1790599921695,8,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599921696,9,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,9,0,0
+1790599921696,11,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599921698,11,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599921701,10,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/6dcf719c-9458-45bd-bf16-8b1475dab9d0,10,0,0
+1790599921703,9,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/7b2b50cc-fe3f-40aa-a0f1-aeb90d2f5853,9,0,0
+1790599921706,7,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/ce75c79c-1c34-45f2-a5bd-c12906a06bd3,7,0,0
+1790599921707,7,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/68243753-079e-4d1d-8fe0-c10f887e77ea,7,0,0
+1790599921710,5,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/78b44b0d-9ea5-46c4-9df0-aa1912859957,5,0,0
+1790599921711,7,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/6dcf719c-9458-45bd-bf16-8b1475dab9d0,7,0,0
+1790599921712,8,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/7b2b50cc-fe3f-40aa-a0f1-aeb90d2f5853,8,0,0
+1790599921713,9,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/ce75c79c-1c34-45f2-a5bd-c12906a06bd3,9,0,0
+1790599921714,10,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/68243753-079e-4d1d-8fe0-c10f887e77ea,10,0,0
+1790599921715,11,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/78b44b0d-9ea5-46c4-9df0-aa1912859957,11,0,0
+1790599921718,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599921720,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921722,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921724,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921726,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921729,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/4f9fa94b-0d3b-49e5-88f6-629890e3462d/export,12,0,0
+1790599921731,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/17851309-4370-4f35-8d12-c66e88529726/export,12,0,0
+1790599921734,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/959de91e-38b1-4185-8eef-21e1b9ba5f24/export,11,0,0
+1790599921736,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/83cfb834-523d-498a-a5b1-30347de40bc2/export,12,0,0
+1790599921739,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/2bb070ad-40c5-4585-8310-1658a2b904ab/export,11,0,0
+1790599921741,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921743,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921746,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921748,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921750,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921753,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16750,228,5,5,http://127.0.0.1:3200/api/activities/d951e406-9528-4e5c-83ad-357351148b8b/export,11,0,0
+1790599921755,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16746,228,5,5,http://127.0.0.1:3200/api/activities/03933171-426b-47ed-980c-3f9437eda6b2/export,12,0,0
+1790599921758,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16751,228,5,5,http://127.0.0.1:3200/api/activities/760b9f6d-7511-4627-b1fc-3d82d225fb1b/export,12,0,0
+1790599921760,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16753,228,5,5,http://127.0.0.1:3200/api/activities/3a165d5f-40d0-4fef-a43f-9b9618fe22b8/export,12,0,0
+1790599921762,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16727,228,5,5,http://127.0.0.1:3200/api/activities/20c5ab68-1fc1-40af-8924-8671d0cdd1af/export,13,0,0
+1790599921765,11,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,11,0,0
+1790599921767,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599921770,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599921772,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599921775,7,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,7,0,0
+1790599921776,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/6dcf719c-9458-45bd-bf16-8b1475dab9d0,0,0,0
+1790599921777,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/7b2b50cc-fe3f-40aa-a0f1-aeb90d2f5853,0,0,0
+1790599921780,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/ce75c79c-1c34-45f2-a5bd-c12906a06bd3,0,0,0
+1790599921781,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/68243753-079e-4d1d-8fe0-c10f887e77ea,0,0,0
+1790599921782,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/78b44b0d-9ea5-46c4-9df0-aa1912859957,0,0,0
+1790599921784,7,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599921785,7,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599921787,6,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599921789,4,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,4,0,0
+1790599921791,3,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,3,0,0
+1790599921791,6,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,6,0,0
+1790599921792,7,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,7,0,0
+1790599921793,8,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599921793,10,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,10,0,0
+1790599921794,11,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599921797,9,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/bf492254-01f3-43d4-825a-3b2d5ea7e22b,9,0,0
+1790599921800,7,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/00140447-6ac1-4b50-92dd-cede1c22169a,7,0,0
+1790599921802,6,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/6bcb6173-3bcf-43a0-8f19-ae1da6630a83,6,0,0
+1790599921804,5,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/67869e88-af0a-41f8-b14c-57b6a54c9a8a,5,0,0
+1790599921806,4,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/c082b9ac-0e0a-4555-a35b-353f84501074,4,0,0
+1790599921806,7,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/bf492254-01f3-43d4-825a-3b2d5ea7e22b,7,0,0
+1790599921808,8,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/00140447-6ac1-4b50-92dd-cede1c22169a,8,0,0
+1790599921808,10,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/6bcb6173-3bcf-43a0-8f19-ae1da6630a83,10,0,0
+1790599921809,11,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/67869e88-af0a-41f8-b14c-57b6a54c9a8a,11,0,0
+1790599921810,12,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/c082b9ac-0e0a-4555-a35b-353f84501074,12,0,0
+1790599921813,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921816,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921818,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921820,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921822,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921825,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/800e34e1-988f-4fbc-a505-3c20096882bb/export,10,0,0
+1790599921827,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/3d004886-1434-4c0f-ae88-f446b48a1dbf/export,10,0,0
+1790599921829,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/107de144-b574-41a5-b85b-66a85a4f100c/export,10,0,0
+1790599921831,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/ee15082d-3436-4cfd-953f-d986ba3ee555/export,10,0,0
+1790599921833,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/5e6016aa-4d62-4e3b-9883-a679f3c56001/export,10,0,0
+1790599921835,10,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599921837,10,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599921839,10,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599921841,10,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599921843,10,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599921845,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16754,228,5,5,http://127.0.0.1:3200/api/activities/04161baa-9145-4aa7-9f0a-132436eee968/export,13,0,0
+1790599921847,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16743,228,5,5,http://127.0.0.1:3200/api/activities/290446f9-7d14-4392-8b9a-9bdfb1ce9d98/export,13,0,0
+1790599921849,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16753,228,5,5,http://127.0.0.1:3200/api/activities/b471ab75-17f8-4bca-93c4-cbb7ef7817b3/export,14,0,0
+1790599921851,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16726,228,5,5,http://127.0.0.1:3200/api/activities/285a2ed2-05b7-463f-9f08-4322ff3f2558/export,14,0,0
+1790599921854,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16726,228,5,5,http://127.0.0.1:3200/api/activities/4732edd4-8137-4b4c-987a-5cb01dbf4eb9/export,14,0,0
+1790599921858,11,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4066,181,5,5,http://127.0.0.1:3200/api/metrics,11,0,0
+1790599921861,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4066,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599921863,8,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4066,181,5,5,http://127.0.0.1:3200/api/metrics,8,0,0
+1790599921866,6,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4066,181,5,5,http://127.0.0.1:3200/api/metrics,6,0,0
+1790599921868,6,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4066,181,5,5,http://127.0.0.1:3200/api/metrics,6,0,0
+1790599921869,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/bf492254-01f3-43d4-825a-3b2d5ea7e22b,0,0,0
+1790599921870,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/00140447-6ac1-4b50-92dd-cede1c22169a,0,0,0
+1790599921871,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/6bcb6173-3bcf-43a0-8f19-ae1da6630a83,0,0,0
+1790599921873,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/67869e88-af0a-41f8-b14c-57b6a54c9a8a,0,0,0
+1790599921874,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/c082b9ac-0e0a-4555-a35b-353f84501074,0,0,0
+1790599921876,8,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,8,0,0
+1790599921878,7,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599921880,5,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599921881,5,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599921883,4,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,4,0,0
+1790599921884,6,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,6,0,0
+1790599921885,7,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,7,0,0
+1790599921886,8,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599921886,10,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,10,0,0
+1790599921887,11,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599921890,9,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/0ca719ec-e17c-4adc-8020-8d6cb1bdd38e,9,0,0
+1790599921892,8,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/3b62351e-7e37-47d8-b004-a6782e8f7037,8,0,0
+1790599921895,6,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/d5975079-caa4-45e2-95c6-fb300e1154b0,6,0,0
+1790599921896,6,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/c38d1e24-89db-4f18-805c-29fe6d9a3f31,6,0,0
+1790599921898,5,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/1f9ab91a-ef5a-43e8-b733-89d49e8717b5,5,0,0
+1790599921899,6,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/0ca719ec-e17c-4adc-8020-8d6cb1bdd38e,6,0,0
+1790599921900,7,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/3b62351e-7e37-47d8-b004-a6782e8f7037,7,0,0
+1790599921901,8,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/d5975079-caa4-45e2-95c6-fb300e1154b0,8,0,0
+1790599921902,10,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/c38d1e24-89db-4f18-805c-29fe6d9a3f31,10,0,0
+1790599921903,11,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/1f9ab91a-ef5a-43e8-b733-89d49e8717b5,11,0,0
+1790599921905,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921907,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921910,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921912,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921914,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599921917,13,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/489da440-8791-4f30-8736-9b2a9e081286/export,13,0,0
+1790599921920,13,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/41504468-5a2e-475a-a487-af9f998ce408/export,13,0,0
+1790599921923,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/bbbae589-e50e-47ea-8955-79b05c493033/export,12,0,0
+1790599921925,13,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/be63fd80-e5be-4ce5-90c8-f2ab1a91ee1f/export,13,0,0
+1790599921928,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/1a840cec-6f05-4295-aaa1-b59a97c6df3a/export,12,0,0
+1790599921930,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921933,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921935,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599921938,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921940,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599921943,11,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16758,228,5,5,http://127.0.0.1:3200/api/activities/25b858d8-3f0b-4616-867b-d2a69c74b9f3/export,11,0,0
+1790599921945,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16711,228,5,5,http://127.0.0.1:3200/api/activities/c1b4bfa7-002f-4ace-a5ae-062a4a406a89/export,12,0,0
+1790599921947,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16759,228,5,5,http://127.0.0.1:3200/api/activities/215508bc-32fd-4510-aa34-1da4accf8c58/export,13,0,0
+1790599921949,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16697,228,5,5,http://127.0.0.1:3200/api/activities/8ba23174-7398-4ac6-95ea-f3d4bf84fdd7/export,14,0,0
+1790599921952,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16768,228,5,5,http://127.0.0.1:3200/api/activities/a6297250-aa6b-4173-aaa1-d509ad6a7730/export,14,0,0
+1790599921955,12,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4065,181,5,5,http://127.0.0.1:3200/api/metrics,12,0,0
+1790599921957,11,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4065,181,5,5,http://127.0.0.1:3200/api/metrics,11,0,0
+1790599921960,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4065,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599921963,7,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4065,181,5,5,http://127.0.0.1:3200/api/metrics,7,0,0
+1790599921966,6,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4065,181,5,5,http://127.0.0.1:3200/api/metrics,6,0,0
+1790599921967,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/0ca719ec-e17c-4adc-8020-8d6cb1bdd38e,0,0,0
+1790599921968,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/3b62351e-7e37-47d8-b004-a6782e8f7037,0,0,0
+1790599921970,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/d5975079-caa4-45e2-95c6-fb300e1154b0,0,0,0
+1790599921971,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/c38d1e24-89db-4f18-805c-29fe6d9a3f31,0,0,0
+1790599921972,10,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/1f9ab91a-ef5a-43e8-b733-89d49e8717b5,0,0,0
+1790599921974,9,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,448,176,5,5,http://127.0.0.1:3200/health,9,0,0
+1790599921976,8,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,8,0,0
+1790599921978,7,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599921980,6,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599921982,4,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,4,0,0
+1790599921983,6,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,6,0,0
+1790599921984,9,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599921985,10,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,10,0,0
+1790599921986,11,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599921987,13,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,13,0,0
+1790599921989,12,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/b2cfa267-0302-45c3-8cfd-f40a3685fd7c,12,0,0
+1790599921993,9,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/08ebc653-b60d-4fd5-bf5b-86b0fc42b8e0,9,0,0
+1790599921995,8,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/76c4a1b2-fb33-4de1-82b1-ee4384995403,8,0,0
+1790599921998,7,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/51d2873c-7f3e-431f-aeeb-16405615558f,7,0,0
+1790599922000,6,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/026c8d70-b7ea-4335-b5b4-c3ec972d808f,6,0,0
+1790599922001,8,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/b2cfa267-0302-45c3-8cfd-f40a3685fd7c,8,0,0
+1790599922002,9,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/08ebc653-b60d-4fd5-bf5b-86b0fc42b8e0,9,0,0
+1790599922003,10,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/76c4a1b2-fb33-4de1-82b1-ee4384995403,10,0,0
+1790599922005,10,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/51d2873c-7f3e-431f-aeeb-16405615558f,10,0,0
+1790599922006,12,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/026c8d70-b7ea-4335-b5b4-c3ec972d808f,12,0,0
+1790599922009,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922011,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922013,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922016,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922018,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922021,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/9a7e249b-d998-4a7e-ab85-7a79dde8cf88/export,11,0,0
+1790599922023,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/03c516be-d2ad-4acf-bee4-d25d8c5214d2/export,12,0,0
+1790599922025,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/f2238338-1c5b-461a-b40f-d291afb7a5fe/export,12,0,0
+1790599922028,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/1a001901-164e-4188-9c98-c7e60747f0e1/export,12,0,0
+1790599922030,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/813866d9-23b6-42d4-8abd-542d62f0ed3d/export,12,0,0
+1790599922032,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922035,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922037,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922040,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922042,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922044,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16757,228,5,5,http://127.0.0.1:3200/api/activities/3cbcf28a-c548-4fb7-a3ff-b9f86299e48c/export,14,0,0
+1790599922047,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16714,228,5,5,http://127.0.0.1:3200/api/activities/8ec2554c-b83f-42db-9248-0d5434b292d7/export,13,0,0
+1790599922050,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16747,228,5,5,http://127.0.0.1:3200/api/activities/8288e322-7a32-4cd0-a711-872bc48cd691/export,14,0,0
+1790599922052,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16744,228,5,5,http://127.0.0.1:3200/api/activities/4602bd66-6339-4796-80cd-1fed64a94cb3/export,15,0,0
+1790599922054,16,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16761,228,5,5,http://127.0.0.1:3200/api/activities/890da514-8341-4deb-b1c0-8e9393fa999d/export,16,0,0
+1790599922058,13,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4063,181,5,5,http://127.0.0.1:3200/api/metrics,13,0,0
+1790599922061,12,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4063,181,5,5,http://127.0.0.1:3200/api/metrics,12,0,0
+1790599922065,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4063,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599922068,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4063,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599922070,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4063,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599922072,10,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/b2cfa267-0302-45c3-8cfd-f40a3685fd7c,0,0,0
+1790599922073,11,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/08ebc653-b60d-4fd5-bf5b-86b0fc42b8e0,0,0,0
+1790599922075,10,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/76c4a1b2-fb33-4de1-82b1-ee4384995403,0,0,0
+1790599922078,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/51d2873c-7f3e-431f-aeeb-16405615558f,0,0,0
+1790599922080,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/026c8d70-b7ea-4335-b5b4-c3ec972d808f,0,0,0
+1790599922082,8,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,8,0,0
+1790599922084,6,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599922086,5,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599922087,5,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599922089,4,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,4,0,0
+1790599922090,5,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,5,0,0
+1790599922090,8,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599922091,9,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,9,0,0
+1790599922092,10,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,10,0,0
+1790599922093,11,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599922096,9,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/b523d42e-9a63-47da-aaaa-a9c8496a0133,9,0,0
+1790599922098,8,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/5185960a-0dbc-4767-8e10-22ab7e44f56f,8,0,0
+1790599922100,7,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/81027ee9-45c5-4ab4-b0de-52e58961ad1b,7,0,0
+1790599922102,6,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/1e8c6a06-7c0c-4dd1-9787-f45dfc878392,6,0,0
+1790599922104,5,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/9f33b1a9-7f75-4d6e-9bcc-17ab6a264a3f,5,0,0
+1790599922105,6,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/b523d42e-9a63-47da-aaaa-a9c8496a0133,6,0,0
+1790599922106,7,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/5185960a-0dbc-4767-8e10-22ab7e44f56f,7,0,0
+1790599922107,8,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/81027ee9-45c5-4ab4-b0de-52e58961ad1b,8,0,0
+1790599922108,9,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/1e8c6a06-7c0c-4dd1-9787-f45dfc878392,9,0,0
+1790599922109,11,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/9f33b1a9-7f75-4d6e-9bcc-17ab6a264a3f,11,0,0
+1790599922111,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922113,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599922115,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599922117,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599922121,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922124,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/fccdd627-7218-4222-8460-e5da0b21e204/export,10,0,0
+1790599922126,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/8321d759-d491-4756-82ba-976d28a259e9/export,10,0,0
+1790599922128,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/db0424ec-e702-490b-9b52-e244374ffa8f/export,10,0,0
+1790599922130,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/079f4224-da72-4431-9838-0dac94392aa2/export,11,0,0
+1790599922132,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/40370a17-f155-4aef-a64d-3c1c5e9d5684/export,11,0,0
+1790599922134,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922136,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922139,10,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922141,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922143,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922145,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16732,228,5,5,http://127.0.0.1:3200/api/activities/057a3023-2200-4489-9889-1de6599867fd/export,12,0,0
+1790599922148,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16747,228,5,5,http://127.0.0.1:3200/api/activities/1dcd33cf-b5ae-463d-b8a2-c4c76788be83/export,12,0,0
+1790599922150,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16709,228,5,5,http://127.0.0.1:3200/api/activities/9c9e604e-8617-4f2a-b770-74705956eecc/export,14,0,0
+1790599922152,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16732,228,5,5,http://127.0.0.1:3200/api/activities/660985b0-273d-47b0-b1cf-058ec974facc/export,14,0,0
+1790599922154,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16775,228,5,5,http://127.0.0.1:3200/api/activities/6c8ae33b-81f8-4e03-b949-7b76d0890be5/export,14,0,0
+1790599922157,13,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4064,181,5,5,http://127.0.0.1:3200/api/metrics,12,0,0
+1790599922160,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4064,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599922164,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4064,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599922166,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4064,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599922169,7,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4064,181,5,5,http://127.0.0.1:3200/api/metrics,7,0,0
+1790599922170,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/b523d42e-9a63-47da-aaaa-a9c8496a0133,0,0,0
+1790599922171,10,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/5185960a-0dbc-4767-8e10-22ab7e44f56f,0,0,0
+1790599922173,12,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/81027ee9-45c5-4ab4-b0de-52e58961ad1b,0,0,0
+1790599922175,12,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/1e8c6a06-7c0c-4dd1-9787-f45dfc878392,0,0,0
+1790599922177,12,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/9f33b1a9-7f75-4d6e-9bcc-17ab6a264a3f,0,0,0
+1790599922179,10,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,10,0,0
+1790599922181,9,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,9,0,0
+1790599922185,6,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599922187,5,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599922189,3,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,3,0,0
+1790599922190,5,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,4,0,0
+1790599922190,7,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,7,0,0
+1790599922191,7,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,7,0,0
+1790599922192,8,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599922192,11,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599922195,9,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/6ce10071-439a-4e45-b123-1b276509e91b,9,0,0
+1790599922197,8,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/5b6f12b9-8742-409c-94c3-a4c898e25d61,8,0,0
+1790599922199,6,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/d25b30df-2f24-479e-a053-f8462f6a7771,6,0,0
+1790599922201,5,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/6543c836-bb02-4e64-927c-0d96e842099b,5,0,0
+1790599922203,4,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/9f34e942-3fbc-4d95-a41f-6087c32c2942,4,0,0
+1790599922204,6,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/6ce10071-439a-4e45-b123-1b276509e91b,6,0,0
+1790599922205,7,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/5b6f12b9-8742-409c-94c3-a4c898e25d61,7,0,0
+1790599922206,8,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/d25b30df-2f24-479e-a053-f8462f6a7771,8,0,0
+1790599922206,10,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/6543c836-bb02-4e64-927c-0d96e842099b,10,0,0
+1790599922207,11,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/9f34e942-3fbc-4d95-a41f-6087c32c2942,11,0,0
+1790599922210,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922212,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922214,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922216,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922218,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922220,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/a12ef3b8-c494-4960-ae6a-eaac4ee8bfa3/export,10,0,0
+1790599922222,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/c5535d71-17bb-4d3f-8002-8350e72d5500/export,10,0,0
+1790599922224,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/844719e4-b0cd-4773-9f47-bb8febeaefec/export,11,0,0
+1790599922227,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/2cb3b19e-fde1-4e32-a333-5d417f97da49/export,10,0,0
+1790599922228,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/e0546d9f-5997-495b-914b-6dc60a474eb1/export,11,0,0
+1790599922230,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922232,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922235,10,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922237,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922239,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922241,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16758,228,5,5,http://127.0.0.1:3200/api/activities/0c133382-9f45-49c9-8a59-e9b6a11762cf/export,12,0,0
+1790599922243,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16751,228,5,5,http://127.0.0.1:3200/api/activities/79c6a591-db19-4f66-9aeb-0002e345efac/export,13,0,0
+1790599922246,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16747,228,5,5,http://127.0.0.1:3200/api/activities/6464c1ab-dfac-482c-b524-daecf46a16d1/export,13,0,0
+1790599922248,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16749,228,5,5,http://127.0.0.1:3200/api/activities/b124bd20-ac54-4cdf-a9da-b69b605fe338/export,13,0,0
+1790599922250,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16725,228,5,5,http://127.0.0.1:3200/api/activities/336e5f43-317b-4d78-a8cc-881fe587bb34/export,14,0,0
+1790599922253,12,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4061,181,5,5,http://127.0.0.1:3200/api/metrics,12,0,0
+1790599922256,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4061,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599922259,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4061,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599922261,8,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4061,181,5,5,http://127.0.0.1:3200/api/metrics,8,0,0
+1790599922264,6,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4061,181,5,5,http://127.0.0.1:3200/api/metrics,6,0,0
+1790599922265,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/6ce10071-439a-4e45-b123-1b276509e91b,0,0,0
+1790599922266,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/5b6f12b9-8742-409c-94c3-a4c898e25d61,0,0,0
+1790599922268,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/d25b30df-2f24-479e-a053-f8462f6a7771,0,0,0
+1790599922269,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/6543c836-bb02-4e64-927c-0d96e842099b,0,0,0
+1790599922270,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/9f34e942-3fbc-4d95-a41f-6087c32c2942,0,0,0
+1790599922272,7,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599922273,7,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599922275,6,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599922277,5,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599922278,5,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599922279,6,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,6,0,0
+1790599922280,8,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599922281,9,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,9,0,0
+1790599922282,10,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,10,0,0
+1790599922283,11,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599922286,9,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/31261299-ba40-49da-b9d2-e3652bb166c9,9,0,0
+1790599922288,8,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/6f8271a4-5c52-47b0-aea8-da9cfd1d355a,8,0,0
+1790599922290,7,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/606649ff-024c-406e-8bdf-81f05cad50b1,7,0,0
+1790599922292,6,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/f5cac7b7-7840-4b6e-be5a-df5c9ba4f298,6,0,0
+1790599922294,5,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/9e25bb7d-6c93-4430-801a-c605d52db17c,5,0,0
+1790599922295,6,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/31261299-ba40-49da-b9d2-e3652bb166c9,6,0,0
+1790599922296,7,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/6f8271a4-5c52-47b0-aea8-da9cfd1d355a,7,0,0
+1790599922297,8,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/606649ff-024c-406e-8bdf-81f05cad50b1,8,0,0
+1790599922298,9,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/f5cac7b7-7840-4b6e-be5a-df5c9ba4f298,9,0,0
+1790599922299,10,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/9e25bb7d-6c93-4430-801a-c605d52db17c,10,0,0
+1790599922301,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922303,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922305,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922307,12,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922310,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922312,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/a94f8049-fb80-47cf-9264-d6c52dd2b748/export,12,0,0
+1790599922315,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/3c685536-4737-4a53-b078-8a2327ce6c3a/export,11,0,0
+1790599922317,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/95ff7ca7-930a-44e0-8b62-24c499bd7684/export,12,0,0
+1790599922319,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/db7f37d3-46ff-4796-ae81-a8e8faeb4ead/export,12,0,0
+1790599922322,13,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/296c1363-386e-4894-be7e-17fda7f9b636/export,13,0,0
+1790599922325,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922327,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922329,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922331,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922335,10,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922337,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16736,228,5,5,http://127.0.0.1:3200/api/activities/a09073b0-6c8b-4a10-8b1e-72101b01d9c0/export,12,0,0
+1790599922339,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16695,228,5,5,http://127.0.0.1:3200/api/activities/5f537601-4ff6-4f3d-aaaa-e3e7a45197e2/export,13,0,0
+1790599922341,14,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16753,228,5,5,http://127.0.0.1:3200/api/activities/80652c9c-82bf-40d0-b6b4-6e83ccecc532/export,14,0,0
+1790599922343,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16761,228,5,5,http://127.0.0.1:3200/api/activities/2a0858ee-f655-4e7d-aa43-68b57a813a15/export,15,0,0
+1790599922346,15,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16735,228,5,5,http://127.0.0.1:3200/api/activities/25bb5887-0fe9-4609-a701-889941772c04/export,14,0,0
+1790599922349,13,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4062,181,5,5,http://127.0.0.1:3200/api/metrics,13,0,0
+1790599922353,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4062,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599922355,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4062,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599922358,7,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4062,181,5,5,http://127.0.0.1:3200/api/metrics,7,0,0
+1790599922361,5,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4062,181,5,5,http://127.0.0.1:3200/api/metrics,5,0,0
+1790599922362,6,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/31261299-ba40-49da-b9d2-e3652bb166c9,0,0,0
+1790599922363,6,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/6f8271a4-5c52-47b0-aea8-da9cfd1d355a,0,0,0
+1790599922364,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/606649ff-024c-406e-8bdf-81f05cad50b1,0,0,0
+1790599922365,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/f5cac7b7-7840-4b6e-be5a-df5c9ba4f298,0,0,0
+1790599922366,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/9e25bb7d-6c93-4430-801a-c605d52db17c,0,0,0
+1790599922368,7,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599922369,6,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599922371,5,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599922372,5,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599922374,4,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,4,0,0
+1790599922375,5,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,5,0,0
+1790599922376,6,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,6,0,0
+1790599922376,8,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599922377,8,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599922378,9,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,9,0,0
+1790599922380,8,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/36b9db90-3a00-490c-944b-c91314bbd34b,8,0,0
+1790599922382,8,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/3f4f0447-0eb0-4ac5-a7d6-6cee32108fc8,8,0,0
+1790599922384,7,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/53a754c9-7913-4424-b570-ffc5c6102605,7,0,0
+1790599922386,5,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/1b37b47e-f896-457d-a172-16be2ed105fd,5,0,0
+1790599922387,5,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/60063ff9-e1e6-4e44-9538-671e4832ed3c,5,0,0
+1790599922388,6,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/36b9db90-3a00-490c-944b-c91314bbd34b,6,0,0
+1790599922390,6,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/3f4f0447-0eb0-4ac5-a7d6-6cee32108fc8,6,0,0
+1790599922391,7,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/53a754c9-7913-4424-b570-ffc5c6102605,7,0,0
+1790599922392,8,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/1b37b47e-f896-457d-a172-16be2ed105fd,8,0,0
+1790599922392,10,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/60063ff9-e1e6-4e44-9538-671e4832ed3c,10,0,0
+1790599922394,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922396,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922398,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922400,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922402,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922404,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/262ede3d-3d0a-4e14-ab02-b27178e6bd70/export,10,0,0
+1790599922406,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/3ef2d7a6-9756-4b76-af7e-b880bb3e8fe4/export,10,0,0
+1790599922408,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/d4102b28-9565-481a-b2ae-94e4ed6c0ae2/export,10,0,0
+1790599922410,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/bbb26f69-ce96-4fb4-a69b-f33deee287f6/export,10,0,0
+1790599922412,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/39778e6c-1d91-4ec3-a501-8b7e6a734c22/export,10,0,0
+1790599922414,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922416,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922418,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922420,10,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922423,9,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,9,0,0
+1790599922425,10,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16713,228,5,5,http://127.0.0.1:3200/api/activities/7103196f-f11e-43b0-922c-9d605049a69b/export,10,0,0
+1790599922427,11,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16683,228,5,5,http://127.0.0.1:3200/api/activities/40ea56c3-e071-4a7d-819c-c75b60981591/export,11,0,0
+1790599922429,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16769,228,5,5,http://127.0.0.1:3200/api/activities/07747014-07b4-4fc9-bb05-7f7dad037928/export,12,0,0
+1790599922431,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16762,228,5,5,http://127.0.0.1:3200/api/activities/eb293bf0-8bb5-4e5d-9b91-96de788154f3/export,12,0,0
+1790599922433,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16739,228,5,5,http://127.0.0.1:3200/api/activities/8b284745-2e0f-4726-9168-ca535c6e0482/export,13,0,0
+1790599922435,12,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4066,181,5,5,http://127.0.0.1:3200/api/metrics,12,0,0
+1790599922438,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4066,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599922441,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4066,181,5,5,http://127.0.0.1:3200/api/metrics,8,0,0
+1790599922443,8,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4066,181,5,5,http://127.0.0.1:3200/api/metrics,8,0,0
+1790599922446,6,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4066,181,5,5,http://127.0.0.1:3200/api/metrics,6,0,0
+1790599922447,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/36b9db90-3a00-490c-944b-c91314bbd34b,0,0,0
+1790599922449,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/3f4f0447-0eb0-4ac5-a7d6-6cee32108fc8,0,0,0
+1790599922450,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/53a754c9-7913-4424-b570-ffc5c6102605,0,0,0
+1790599922451,10,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/1b37b47e-f896-457d-a172-16be2ed105fd,0,0,0
+1790599922452,11,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/60063ff9-e1e6-4e44-9538-671e4832ed3c,0,0,0
+1790599922456,8,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,8,0,0
+1790599922458,6,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599922459,6,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599922462,4,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,4,0,0
+1790599922463,3,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,3,0,0
+1790599922464,4,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,4,0,0
+1790599922465,5,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,5,0,0
+1790599922465,7,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,7,0,0
+1790599922466,8,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599922466,10,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,10,0,0
+1790599922469,8,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/1a56ead3-2361-4931-aa1c-002699791c25,8,0,0
+1790599922470,8,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/2c84ad5b-022d-4669-b86e-50c93a3b2c8c,8,0,0
+1790599922472,6,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/3f32c4c8-8798-471a-a996-734ac87a865e,6,0,0
+1790599922474,5,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/e9f53d9f-ac99-4508-b0cf-d2464039dea2,5,0,0
+1790599922476,4,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/5c0a6a63-b320-4571-8406-a471a65c5835,4,0,0
+1790599922477,5,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/1a56ead3-2361-4931-aa1c-002699791c25,5,0,0
+1790599922478,6,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/2c84ad5b-022d-4669-b86e-50c93a3b2c8c,6,0,0
+1790599922478,8,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/3f32c4c8-8798-471a-a996-734ac87a865e,8,0,0
+1790599922479,9,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/e9f53d9f-ac99-4508-b0cf-d2464039dea2,9,0,0
+1790599922480,10,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/5c0a6a63-b320-4571-8406-a471a65c5835,10,0,0
+1790599922482,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,9,0,0
+1790599922484,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922486,9,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,9,0,0
+1790599922488,9,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,9,0,0
+1790599922490,9,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,9,0,0
+1790599922492,9,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/ba1f628f-25a2-4e3f-ae96-94d6e2fa1bdc/export,9,0,0
+1790599922494,9,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/a8a13457-7cd8-42b7-9822-5d0adf328bfa/export,9,0,0
+1790599922496,9,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/1356a851-d543-43e9-8782-30e507c8d96b/export,9,0,0
+1790599922497,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/0ef145f1-af7b-4ea5-819e-0b401c27ba3d/export,10,0,0
+1790599922500,9,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/3cee35a9-5d39-4e81-8269-b6fb4dddc7ea/export,9,0,0
+1790599922502,9,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,9,0,0
+1790599922504,9,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,9,0,0
+1790599922506,9,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,9,0,0
+1790599922507,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922509,10,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922511,11,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16747,228,5,5,http://127.0.0.1:3200/api/activities/27c9c18e-dadb-48d8-9a5b-b24f3385d810/export,11,0,0
+1790599922514,11,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16755,228,5,5,http://127.0.0.1:3200/api/activities/e37899a0-e9df-45e0-8483-6c122e0e32cb/export,11,0,0
+1790599922516,11,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16757,228,5,5,http://127.0.0.1:3200/api/activities/f5feb2c5-27fb-4770-89a6-58e8c242b62d/export,11,0,0
+1790599922518,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16718,228,5,5,http://127.0.0.1:3200/api/activities/bae0b407-01f9-457a-b54a-70a63da54942/export,12,0,0
+1790599922520,13,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16745,228,5,5,http://127.0.0.1:3200/api/activities/bebc012d-4b5d-4951-a230-3e7616cec5f4/export,13,0,0
+1790599922522,12,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,12,0,0
+1790599922525,11,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,11,0,0
+1790599922527,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599922530,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599922533,7,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,7,0,0
+1790599922534,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/1a56ead3-2361-4931-aa1c-002699791c25,0,0,0
+1790599922536,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/2c84ad5b-022d-4669-b86e-50c93a3b2c8c,0,0,0
+1790599922537,10,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/3f32c4c8-8798-471a-a996-734ac87a865e,0,0,0
+1790599922539,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/e9f53d9f-ac99-4508-b0cf-d2464039dea2,0,0,0
+1790599922540,10,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/5c0a6a63-b320-4571-8406-a471a65c5835,0,0,0
+1790599922542,9,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,9,0,0
+1790599922544,8,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,8,0,0
+1790599922547,6,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599922548,6,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599922550,4,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,4,0,0
+1790599922551,6,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,6,0,0
+1790599922552,7,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,7,0,0
+1790599922553,8,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,8,0,0
+1790599922554,10,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,10,0,0
+1790599922555,11,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599922557,10,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/be1ff19d-18f6-4a2c-963f-f7ac7dff3ea6,10,0,0
+1790599922559,9,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/f8a4850d-2db8-4167-a4ef-0c6da41d8749,9,0,0
+1790599922562,7,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/f86ad6db-9722-4191-8f84-404ea393d45e,7,0,0
+1790599922564,6,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/41569896-1b86-42de-8d0c-d294e92a2f51,6,0,0
+1790599922566,5,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/c175a26b-ea98-4783-8c29-2c20f90cdf5a,5,0,0
+1790599922567,6,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/be1ff19d-18f6-4a2c-963f-f7ac7dff3ea6,6,0,0
+1790599922568,7,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/f8a4850d-2db8-4167-a4ef-0c6da41d8749,7,0,0
+1790599922569,8,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/f86ad6db-9722-4191-8f84-404ea393d45e,8,0,0
+1790599922570,9,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/41569896-1b86-42de-8d0c-d294e92a2f51,9,0,0
+1790599922571,10,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/c175a26b-ea98-4783-8c29-2c20f90cdf5a,10,0,0
+1790599922573,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922575,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922577,11,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922579,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599922581,13,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599922584,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/4ebaf57b-3ccd-4419-96c6-c760fdbaa75a/export,12,0,0
+1790599922586,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/22021e89-cab6-4409-8b03-e9bd68a35ede/export,12,0,0
+1790599922588,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/a79180b8-04ff-46c6-886d-79b698e7b82e/export,12,0,0
+1790599922592,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/f9d284c4-47db-42af-93f0-329c6f9f8422/export,10,0,0
+1790599922594,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/5eb34651-773b-417a-9775-3cbd6dc7150e/export,12,0,0
+1790599922596,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599922599,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922601,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599922603,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599922607,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922610,10,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16713,228,5,5,http://127.0.0.1:3200/api/activities/ae198477-8aea-4bb0-851d-647b35228b5c/export,10,0,0
+1790599922612,11,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16730,228,5,5,http://127.0.0.1:3200/api/activities/75a0abcc-8a59-4566-afc6-bd04c2e2e52b/export,11,0,0
+1790599922614,11,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16742,228,5,5,http://127.0.0.1:3200/api/activities/1a316ecf-39bd-4209-82c9-b79d8c6c0690/export,11,0,0
+1790599922616,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16743,228,5,5,http://127.0.0.1:3200/api/activities/d8a0a6c2-f4d4-44e0-b339-1b7d07d192a3/export,12,0,0
+1790599922618,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16740,228,5,5,http://127.0.0.1:3200/api/activities/8c5cabda-bd4d-4513-820e-d287a4730e5e/export,12,0,0
+1790599922620,12,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,12,0,0
+1790599922623,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599922626,8,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,8,0,0
+1790599922628,7,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,7,0,0
+1790599922631,5,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4067,181,5,5,http://127.0.0.1:3200/api/metrics,5,0,0
+1790599922632,5,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/be1ff19d-18f6-4a2c-963f-f7ac7dff3ea6,0,0,0
+1790599922633,6,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/f8a4850d-2db8-4167-a4ef-0c6da41d8749,0,0,0
+1790599922634,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/f86ad6db-9722-4191-8f84-404ea393d45e,0,0,0
+1790599922635,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/41569896-1b86-42de-8d0c-d294e92a2f51,0,0,0
+1790599922636,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/c175a26b-ea98-4783-8c29-2c20f90cdf5a,0,0,0
+1790599922638,7,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599922639,6,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,6,0,0
+1790599922641,5,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,5,5,http://127.0.0.1:3200/health,5,0,0
+1790599922643,4,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,5,5,http://127.0.0.1:3200/health,4,0,0
+1790599922644,3,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,5,5,http://127.0.0.1:3200/health,3,0,0
+1790599922645,4,01 Create word list,201,Created,Bounded concurrent journeys 1-2,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,4,0,0
+1790599922646,5,01 Create word list,201,Created,Bounded concurrent journeys 1-1,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,5,0,0
+1790599922646,7,01 Create word list,201,Created,Bounded concurrent journeys 1-3,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,7,0,0
+1790599922647,9,01 Create word list,201,Created,Bounded concurrent journeys 1-5,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,9,0,0
+1790599922647,11,01 Create word list,201,Created,Bounded concurrent journeys 1-4,text,true,,1301,439,5,5,http://127.0.0.1:3200/api/word-lists,11,0,0
+1790599922649,10,02 Read word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/ffbb2c9b-8755-46dc-a410-eb7956b2ab7c,10,0,0
+1790599922651,9,02 Read word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/8bbc27a2-09f3-4219-92cd-08bad1591958,9,0,0
+1790599922654,7,02 Read word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/7faf0660-5f47-4d27-8a4e-10ce8f6a31e3,7,0,0
+1790599922656,5,02 Read word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/3d4896fc-816d-40da-986f-e890384393d3,5,0,0
+1790599922658,4,02 Read word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1296,221,5,5,http://127.0.0.1:3200/api/word-lists/16376322-6ad3-42d4-8e70-aa2c4545e470,4,0,0
+1790599922659,5,03 Update word list,200,OK,Bounded concurrent journeys 1-2,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/ffbb2c9b-8755-46dc-a410-eb7956b2ab7c,5,0,0
+1790599922660,6,03 Update word list,200,OK,Bounded concurrent journeys 1-1,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/8bbc27a2-09f3-4219-92cd-08bad1591958,6,0,0
+1790599922661,7,03 Update word list,200,OK,Bounded concurrent journeys 1-3,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/7faf0660-5f47-4d27-8a4e-10ce8f6a31e3,7,0,0
+1790599922662,8,03 Update word list,200,OK,Bounded concurrent journeys 1-5,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/3d4896fc-816d-40da-986f-e890384393d3,8,0,0
+1790599922662,10,03 Update word list,200,OK,Bounded concurrent journeys 1-4,text,true,,1255,284,5,5,http://127.0.0.1:3200/api/word-lists/16376322-6ad3-42d4-8e70-aa2c4545e470,10,0,0
+1790599922664,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-2,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922666,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-1,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922668,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-3,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922670,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-5,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922672,10,04 Create Wordle,201,Created,Bounded concurrent journeys 1-4,text,true,,1711,504,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922674,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-2,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/9d17e573-90a3-4e7f-a943-ba8f612c0ecf/export,10,0,0
+1790599922676,10,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-1,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/ae39b71a-ea3d-4a54-82e5-e64200fbc3a2/export,10,0,0
+1790599922678,11,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-3,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/2f26a7f8-6b8a-484e-8540-34082f162b75/export,11,0,0
+1790599922680,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-5,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/1a64c57d-47a7-4035-a77f-a94a7727c87d/export,12,0,0
+1790599922682,12,05 Generate Wordle,200,OK,Bounded concurrent journeys 1-4,text,true,,16399,228,5,5,http://127.0.0.1:3200/api/activities/e7985135-9c0b-4809-afbb-5f3ff93687c6/export,12,0,0
+1790599922684,13,06 Create Word Search,201,Created,Bounded concurrent journeys 1-2,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,13,0,0
+1790599922687,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-1,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922689,12,06 Create Word Search,201,Created,Bounded concurrent journeys 1-3,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,12,0,0
+1790599922692,11,06 Create Word Search,201,Created,Bounded concurrent journeys 1-5,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,11,0,0
+1790599922695,10,06 Create Word Search,201,Created,Bounded concurrent journeys 1-4,text,true,,1693,486,5,5,http://127.0.0.1:3200/api/activities,10,0,0
+1790599922697,11,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-2,text,true,,16720,228,5,5,http://127.0.0.1:3200/api/activities/150a8bed-b2e8-4691-880f-c5228b520620/export,11,0,0
+1790599922699,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-1,text,true,,16744,228,5,5,http://127.0.0.1:3200/api/activities/92752c41-163f-4a3b-acaa-3325c5f0dd7a/export,12,0,0
+1790599922701,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-3,text,true,,16686,228,5,5,http://127.0.0.1:3200/api/activities/53eb50c5-42f7-4de1-a554-433193e28c67/export,12,0,0
+1790599922704,11,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-5,text,true,,16755,228,5,5,http://127.0.0.1:3200/api/activities/c98602f3-1e22-440d-9da7-2b5371815588/export,11,0,0
+1790599922706,12,07 Generate Word Search,200,OK,Bounded concurrent journeys 1-4,text,true,,16722,228,5,5,http://127.0.0.1:3200/api/activities/8a443cf2-b52f-4f9c-b6d0-077cf6bcbe57/export,12,0,0
+1790599922708,11,08 Metrics report,200,OK,Bounded concurrent journeys 1-2,text,true,,4069,181,5,5,http://127.0.0.1:3200/api/metrics,11,0,0
+1790599922711,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-1,text,true,,4069,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599922713,9,08 Metrics report,200,OK,Bounded concurrent journeys 1-3,text,true,,4069,181,5,5,http://127.0.0.1:3200/api/metrics,9,0,0
+1790599922715,10,08 Metrics report,200,OK,Bounded concurrent journeys 1-5,text,true,,4069,181,5,5,http://127.0.0.1:3200/api/metrics,10,0,0
+1790599922718,8,08 Metrics report,200,OK,Bounded concurrent journeys 1-4,text,true,,4069,181,5,5,http://127.0.0.1:3200/api/metrics,8,0,0
+1790599922719,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-2,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/ffbb2c9b-8755-46dc-a410-eb7956b2ab7c,0,0,0
+1790599922721,8,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-1,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/8bbc27a2-09f3-4219-92cd-08bad1591958,0,0,0
+1790599922722,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-3,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/7faf0660-5f47-4d27-8a4e-10ce8f6a31e3,0,0,0
+1790599922725,7,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-5,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/3d4896fc-816d-40da-986f-e890384393d3,0,0,0
+1790599922726,9,09 Delete list and linked activities,204,No Content,Bounded concurrent journeys 1-4,,true,,198,224,5,5,http://127.0.0.1:3200/api/word-lists/16376322-6ad3-42d4-8e70-aa2c4545e470,0,0,0
+1790599922728,7,10 Health,200,OK,Bounded concurrent journeys 1-2,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599922729,7,10 Health,200,OK,Bounded concurrent journeys 1-1,text,true,,449,176,5,5,http://127.0.0.1:3200/health,7,0,0
+1790599922731,6,10 Health,200,OK,Bounded concurrent journeys 1-3,text,true,,449,176,3,3,http://127.0.0.1:3200/health,6,0,0
+1790599922733,5,10 Health,200,OK,Bounded concurrent journeys 1-5,text,true,,449,176,2,2,http://127.0.0.1:3200/health,5,0,0
+1790599922735,4,10 Health,200,OK,Bounded concurrent journeys 1-4,text,true,,449,176,1,1,http://127.0.0.1:3200/health,4,0,0
