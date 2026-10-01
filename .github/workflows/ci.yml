@@ -75,5 +75,3 @@ jobs:
           path: |
             evidence/playwright/results.json
             evidence/playwright/html
-
-\n
